@@ -1,227 +1,94 @@
-# MESSAGE HOUSE SAYDO
-## Document de Référence Stratégique — Version 1.0
-
-> **Usage :** Ce document est intégralement importé dans NotebookLM et résumé dans AGENTS.md. Il est le contexte permanent de Jules et Claude pour toute production de contenu.
-
----
-
-## 1. ORIGIN STORY
-
-**Version courte :**
-> *"SAYDO est né de la frustration d'un orthodontiste qui rentrait chez lui avec des comptes-rendus à finir, pendant que sa famille l'attendait."*
-
-**Version longue (cadre narratif StoryBrand) :**
-- **Héros :** Le praticien orthodontiste
-- **Problème :** La charge administrative vole son temps et son énergie
-- **Ennemi extérieur :** Logiciels fermés, double saisie, burnout administratif
-- **Ennemi intérieur :** Frustration de ne pas être pleinement présent pour ses patients
-- **Guide :** SAYDO
-- **Plan :** SAYDO écoute, structure en 30 champs cliniques, remplit le logiciel automatiquement
-- **Appel à l'action :** Essayer SAYDO (démo gratuite)
-- **Échec (sans SAYDO) :** Burnout, temps perdu, frustration
-- **Succès (avec SAYDO) :** Plus de temps pour les patients, moins de stress, retour au métier
+# MESSAGE HOUSE SAYDO — V2.3
+**Version :** 2.3  
+**Date :** 30 juin 2026  
+**Usage :** Ce document est le contexte permanent pour NotebookLM, Claude et tout agent de rédaction. Il doit être fourni intégralement dans chaque brief.
 
 ---
 
-## 2. PROMESSE CENTRALE
-
-> **"SAYDO restitue aux orthodontistes le temps qu'ils passent à écrire, pour qu'ils le passent à soigner."**
-
-**Déclinaisons par persona :**
-
-| Persona | Version |
-|---------|---------|
-| Patientcentrique | *"Avec SAYDO, votre consultation appartient à votre patient. Pas à votre clavier."* |
-| Technocentrique | *"SAYDO va là où tous les concurrents s'arrêtent : de la voix au champ Orthalis, sans intervention humaine."* |
-| Argentcentrique | *"SAYDO coûte 200€/mois et récupère l'équivalent de 2 à 3h de travail qualifié par jour."* |
+## 1. Promesse Centrale
+**"SAYDO restitue aux orthodontistes le temps qu'ils passent à écrire, pour qu'ils le passent à soigner."**
 
 ---
 
-## 3. TROIS PREUVES BÉTON
-
-**Règle :** Une preuve béton est un fait vérifiable que les concurrents ne peuvent pas revendiquer.
-
-### Preuve 1 — Souveraineté HDS totale (OVHcloud France)
-
-**One-liner :** *"Seul logiciel de scribe ambiant certifié HDS hébergé en France — vos données patients ne quittent jamais le territoire."*
-
-**Détail :** SAYDO est hébergé sur OVHcloud, certifié Hébergeur de Données de Santé (HDS) selon l'article L.1111-8 du Code de la Santé Publique. Nuance, Nabla, Abridge et Amazon HealthScribe sont américains et soumis au Cloud Act.
-
-**Arguments secondaires :**
-- **Technocentrique :** Audit annuel COFRAC, mesures organisationnelles/physiques/techniques documentées
-- **Patientcentrique :** Données patients (comptes-rendus, enregistrements, données cliniques) jamais hors de France
-- **Argentcentrique :** Conformité HDS = prérequis pour appels d'offre et groupements de santé
-
-### Preuve 2 — Module TES : remplit les logiciels fermés sans API
-
-**One-liner :** *"Le seul logiciel qui remplit Orthalis ou Visiodent automatiquement — sans API, sans plugin, sans double saisie."*
-
-**Détail :** TES (Task Execution System) est un agent visuel qui lit l'interface graphique des logiciels métier et les remplit automatiquement. Tous les concurrents s'arrêtent à la transcription — SAYDO ferme la boucle.
-
-**Arguments secondaires :**
-- **Technocentrique :** Vision par ordinateur (OmniParser-like) + LLM local, fonctionne sur tout logiciel Windows
-- **Patientcentrique :** Le praticien ne quitte pas la consultation des yeux, ne tape pas, est présent
-- **Argentcentrique :** Double saisie = 45-90 min/jour = équivalent d'un demi-poste de secrétariat récupéré
-
-### Preuve 3 — Conçu par un orthodontiste en exercice
-
-**One-liner :** *"Conçu par un orthodontiste en exercice — SAYDO comprend une consultation parce qu'il a été entraîné dans une."*
-
-**Détail :** Le co-fondateur est orthodontiste. Les 30 champs cliniques ont été définis par un praticien, pas par des ingénieurs.
-
-**Arguments secondaires :**
-- **Patientcentrique :** Le compte-rendu ressemble à ce que vous auriez écrit — en mieux structuré, en 2 secondes
-- **Technocentrique :** WER < 10%, similarité sémantique 96-99%, itérations sur consultations réelles
-- **Argentcentrique :** Un logiciel médical non validé par un clinicien est un risque — SAYDO est validé par un pair
+## 2. StoryBrand (Version Courte)
+- **Héros** : L’orthodontiste praticien  
+- **Problème** : La charge administrative (double saisie, burnout, logiciels fermés) lui vole son temps et sa présence auprès des patients.  
+- **Guide** : SAYDO, conçu par un orthodontiste  
+- **Plan** : Écoute la consultation → Transforme le langage naturel en documentation structurée et technique → Remplit automatiquement le logiciel métier  
+- **Succès** : Plus de temps pour soigner, présence retrouvée, réduction du burnout  
+- **Échec** : Continuer à perdre 2h30 par jour en tâches administratives indignes  
 
 ---
 
-## 4. VOCABULAIRE DE MARQUE
+## 3. Les 3 Preuves Béton
 
-### Mots autorisés (à utiliser systématiquement)
+1. **Souveraineté HDS totale**  
+   Seul scribe ambiant hébergé en France sur OVHcloud, certifié Hébergeur de Données de Santé (article L.1111-8 Code de la Santé Publique). Vos données patients ne quittent jamais le territoire.
 
-| Terme | Exemple d'usage |
-|-------|-----------------|
-| **Intelligence Clinique Ambiante** | *"SAYDO est une solution d'Intelligence Clinique Ambiante pour l'orthodontie."* |
-| **Scribe ambiant** | *"Votre scribe ambiant prend en charge la documentation pendant que vous soignez."* |
-| **Souverain / Souveraineté** | *"Un logiciel souverain, hébergé en France, audité HDS."* |
-| **Praticien** | *"Les praticiens qui utilisent SAYDO rapportent..."* |
-| **Consultation** | *"Pendant la consultation, SAYDO écoute. Vous, vous soignez."* |
-| **Charge administrative** | *"SAYDO réduit la charge administrative de 50 à 70%."* |
-| **Double saisie** | *"Fini la double saisie entre votre dictaphone et Orthalis."* |
-| **Compte-rendu clinique** | *"SAYDO génère un compte-rendu clinique structuré en 30 champs."* |
+2. **Remplissage automatique des logiciels fermés**  
+   La capacité unique de SAYDO à remplir directement les principaux logiciels métiers d’orthodontie (Orthalis, Orthokis, Visiodent, Dental Wings, etc.) sans API ni plugin, en lisant l’interface comme le ferait un assistant humain.
 
-### Mots interdits (NE JAMAIS UTILISER)
-
-| Terme | Remplacer par |
-|-------|---------------|
-| Révolutionnaire | "Nouveau", "inédit dans l'orthodontie française" |
-| Disruptif | "Différent", "une approche que n'ont pas nos concurrents" |
-| Game-changer | Décrire le changement concret |
-| Solution | "Logiciel", "scribe ambiant", "assistant" |
-| Synergies | Décrire la collaboration concrète |
-| IA (seul) | "Intelligence Clinique Ambiante", "scribe ambiant IA" |
-| Automatisation (seul) | "Automatisation des tâches administratives répétitives" |
-| Nous (corporate) | "Vous" — toujours centré sur le praticien |
-| Simple / Facile | Décrire le processus concret |
-| Vous allez adorer | Décrire le bénéfice |
-| Gratuit / Offert | "Découverte sans engagement", "essai", "démo" |
+3. **Conçu par un orthodontiste en exercice**  
+   SAYDO est capable de transformer le langage naturel, implicite et adapté au patient (enfant ou adulte non médical) en documentation clinique précise et technique. Un praticien utilise souvent des associations d’idées et des explications simples pendant la consultation ; SAYDO comprend ce langage quotidien et le structure automatiquement en termes médicaux rigoureux.
 
 ---
 
-## 5. TROIS ENNEMIS NOMMÉS
+## 4. Les 3 Ennemis Nommés
 
-**Règle :** Nommer l'ennemi est plus puissant que vanter le produit. Le prospect qui se reconnaît est à 70% convaincu.
-
-### Ennemi 1 — La double saisie
-
-| Aspect | Contenu |
-|--------|---------|
-| **Ce que c'est** | Saisir la même info deux fois : d'abord en dictaphone, puis dans le logiciel. 5-15 min/consultation × 25 patients = 2-3h/jour perdues. |
-| **Psychologie** | Tâche indigne pour un praticien qui a fait 10 ans d'études. Symbole de tout ce qui va mal dans l'organisation administrative. |
-| **Comment le nommer** | *"Combien de fois avez-vous dicté la même information — d'abord à voix haute, puis à la main dans Orthalis ?"* |
-| **SAYDO fait** | TES ferme la boucle. Ce qui est dit pendant la consultation va directement dans le champ du logiciel. Une fois. Jamais deux. |
-
-### Ennemi 2 — Le burnout administratif
-
-| Aspect | Contenu |
-|--------|---------|
-| **Ce que c'est** | Tâches non cliniques (saisie, rapports, devis, courriers) qui débordent sur soirées et week-ends. 67% des médecins déclarent que la charge administrative est leur principale source de stress (Drees, 2022). |
-| **Psychologie** | Présence mentale volée. Le praticien qui pense à ses comptes-rendus en retard pendant qu'il examine un patient n'est pas pleinement là. |
-| **Comment le nommer** | *"À quelle heure avez-vous terminé vos comptes-rendus vendredi soir ?"* |
-| **SAYDO fait** | SAYDO est le scribe. La consultation se termine et le compte-rendu est déjà structuré. Le soir, rien à rattraper. |
-
-### Ennemi 3 — Les logiciels fermés
-
-| Aspect | Contenu |
-|--------|---------|
-| **Ce que c'est** | Orthalis, Visiodent, Dental Wings : systèmes fermés, sans API, vieux de 10-20 ans. Les solutions d'IA s'arrêtent toutes au même mur. |
-| **Psychologie** | Le Technocentrique a été déçu. Il a développé une méfiance saine envers les "solutions" qui ne règlent pas le problème jusqu'au bout. |
-| **Comment le nommer** | *"Vous avez essayé des logiciels de dictée médicale. Ils transcrivent bien. Et ensuite ? Vous copiez-collez dans Orthalis comme avant."* |
-| **SAYDO fait** | TES lit l'interface comme un humain et remplit les champs. Le logiciel fermé ne pose plus de problème. |
+1. **La double saisie** — Ressaisir dans le logiciel ce qui a déjà été dit pendant la consultation.
+2. **Le burnout administratif** — La charge mentale et le temps volé qui érodent la vocation (67 % des médecins libéraux citent l’administratif comme principale source de stress).
+3. **Les logiciels fermés** — Les principaux logiciels métiers d’orthodontie (Orthalis, Orthokis, Visiodent, Dental Wings, etc.) qui, souvent anciens, n’offrent pas d’API ouverte et bloquent l’automatisation.
 
 ---
 
-## 6. CE QUE SAYDO NE FAIT PAS
+## 5. Les 3 Personas Cibles
 
-| Non-promesse | Raison |
-|--------------|--------|
-| Ne remplace pas le jugement clinique | SAYDO est un assistant, pas un diagnosticien |
-| Ne fait pas d'orthodontie | SAYDO documente ce que vous faites, ne déplace pas les dents |
-| Ne fonctionne pas sans praticien | Nécessite un utilisateur humain |
-| N'est pas un logiciel de gestion complet | Ne gère ni rendez-vous, ni facturation, ni stocks |
-| Ne promet pas de résultats médicaux précis | Les résultats varient selon l'utilisation |
-| N'est pas "plug and play" sans configuration | Nécessite un paramétrage initial par cabinet |
-
-**Formulation dans les contenus :**
-> *"SAYDO ne fait pas de diagnostic. Il fait ce qu'un orthodontiste fait : documenter, structurer, transmettre. Mais il le fait en 2 secondes."*
+| Persona              | Douleur principale                          | Promesse adaptée                                      | Preuve prioritaire                  |
+|----------------------|---------------------------------------------|-------------------------------------------------------|-------------------------------------|
+| **Patientcentrique** | Perte de présence et d’écoute pendant la consultation | Consultation qui appartient pleinement au patient     | Présence retrouvée + burnout        |
+| **Technocentrique**  | Logiciels fermés et promesses techniques non tenues | Intégration réelle jusqu’au remplissage du logiciel   | Remplissage automatique + Précision + HDS |
+| **Argentcentrique**  | Coût d’opportunité énorme (2h30/jour)       | ROI clair et rapide                                   | Temps récupéré vs coût abonnement   |
 
 ---
 
-## 7. DÉCLINAISONS PAR PERSONA
+## 6. Vocabulaire de Marque
 
-### Patientcentrique
+**Termes autorisés (à privilégier) :**
+- Intelligence Clinique Ambiante
+- Scribe ambiant
+- Souverain / Souveraineté
+- Praticien
+- Consultation
+- Charge administrative
+- Double saisie
+- Compte-rendu clinique
 
-| Élément | Contenu |
-|---------|---------|
-| **Motivation** | Être un meilleur praticien. Être pleinement présent. |
-| **Promesse** | *"Avec SAYDO, votre consultation appartient à votre patient. Pas à votre clavier."* |
-| **Entrée dans le contenu** | *"Vous êtes en consultation. Votre patient vous parle. Vous l'écoutez — ou vous notez ? Avec SAYDO, vous l'écoutez."* |
-| **Preuve prioritaire** | Preuve 3 (conçu par un orthodontiste) |
-| **CTA** | *"Vivez une consultation sans notes."* |
-| **Mots-clés** | Présence, écoute, patient, soin, vocation, qualité |
-
-### Technocentrique
-
-| Élément | Contenu |
-|---------|---------|
-| **Motivation** | Comprendre ce qui se passe sous le capot. A été déçu avant. |
-| **Promesse** | *"SAYDO va là où tous les concurrents s'arrêtent : de la voix au champ Orthalis, sans intervention humaine."* |
-| **Entrée dans le contenu** | *"Tous les scribes médicaux transcrivent. Aucun ne remplit votre logiciel. SAYDO le fait — voici comment."* |
-| **Preuve prioritaire** | Preuve 2 (TES) + métriques (WER <10%, similarité 96-99%) |
-| **CTA** | *"Accès bêta prioritaire + documentation technique."* |
-| **Mots-clés** | Architecture, pipeline, vision par ordinateur, LLM, WER, champ structuré |
-
-### Argentcentrique
-
-| Élément | Contenu |
-|---------|---------|
-| **Motivation** | Piloter le cabinet comme une entreprise. ROI clair exigé. |
-| **Promesse** | *"SAYDO coûte 200€/mois et récupère l'équivalent de 2 à 3h de travail qualifié par jour."* |
-| **Entrée dans le contenu** | *"Un orthodontiste qui voit 25 patients par jour consacre 2h30 à la documentation. Calculons ce que ça représente à votre taux horaire."* |
-| **Preuve prioritaire** | Preuve 2 (TES = suppression coût) + infrastructure mutualisée (35€/mois coût, 200€/mois prix) |
-| **CTA** | *"Calculateur ROI personnalisé."* |
-| **Mots-clés** | ROI, productivité, coût, facturation, CA, marge, efficacité |
+**Termes interdits :**
+- Révolutionnaire, disruptif, game-changer
+- Solution (préférer : logiciel, scribe ambiant, assistant)
+- Synergies
+- IA (seul)
+- Nous (corporate) → toujours **"vous" praticien**
 
 ---
 
-## 8. PITCHS PAR SITUATION
-
-| Situation | Pitch |
-|-----------|-------|
-| **Froid (5s)** | *"SAYDO prend les notes à votre place pendant la consultation — et les rentre directement dans votre logiciel. Fini la double saisie."* |
-| **Email objet** | *La double saisie vous coûte environ 2h par jour* |
-| **Email 1ère ligne** | *"Je suis orthodontiste et j'ai construit un outil qui remplit Orthalis automatiquement. 3 minutes pour vous montrer ?"* |
-| **Article 1ère phrase** | *"Un orthodontiste passe 2h30 par jour à documenter ce qu'il a fait — pas à le faire."* |
-| **LinkedIn accroche** | *"J'ai développé SAYDO pour une raison simple : j'en avais assez de rentrer chez moi avec des comptes-rendus à finir."* |
-| **Investisseur (30s)** | *"SAYDO est le premier scribe ambiant orthodontique HDS hébergé en France. Il transcrit, structure en 30 champs, remplit les logiciels sans API. SaaS 200€/mois/praticien, coût 35€. Marché : 10 000 orthodontistes."* |
-| **Objection "Nuance Dragon"** | *"Nuance transcrit. Mais qui rentre dans Orthalis ? SAYDO le fait automatiquement. Et les données ne partent pas aux US."* |
-| **Objection "cher"** | *"200€/mois. Moins que 2h de secrétariat/semaine. Et ça sauve 2-3h/jour. ROI 10x-15x."* |
+## 7. Règles Éditoriales Clés
+- Niveau de langage : expert accessible
+- Ouverture : toujours une vérité concrète (chiffre, scène vécue, verbatim)
+- Transitions : fluides entre chaque H2
+- Fermeture : question ou invitation forte (jamais "En conclusion")
+- Ton : centré sur **"vous"**, concret, jamais corporate
+- Ne jamais promettre de résultat médical précis
 
 ---
 
-## 9. SYNTHÈSE EXÉCUTIVE (60 secondes)
-
-| Élément | Réponse |
-|---------|---------|
-| **Qui** | SAYDO est un scribe ambiant pour orthodontistes |
-| **Pourquoi** | Les praticiens passent 2-3h/jour à documenter au lieu de soigner |
-| **Ce qu'on fait** | On écoute, on structure en 30 champs, on remplit le logiciel |
-| **Différenciation** | Souveraineté HDS, module TES, conçu par orthodontiste |
-| **Ce qu'on combat** | Double saisie, burnout administratif, logiciels fermés |
-| **Promesse** | Restituer le temps d'écrire pour qu'il soit passé à soigner |
-| **Vision** | Un futur où les praticiens ne touchent plus à un formulaire administratif |
+## 8. Ce que SAYDO ne fait pas
+- Ne remplace pas le jugement clinique du praticien
+- Ne fait pas de diagnostic
+- Ne remplace pas totalement la secrétaire (il la libère des tâches répétitives)
+- N’est pas "plug and play" sans paramétrage initial
+- N’est pas un logiciel de gestion complet du cabinet
 
 ---
 
-
+**Règle d’or :** Tout contenu produit doit faire ressentir cette promesse centrale et nommer au moins un des trois ennemis. Le praticien doit se reconnaître dans le problème et voir clairement le bénéfice concret.

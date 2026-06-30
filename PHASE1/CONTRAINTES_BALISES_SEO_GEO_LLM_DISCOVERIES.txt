@@ -1,374 +1,55 @@
-# SCHEMA.ORG — CONTRAINTES SEO, GEO & LLM DISCOVERY
-## Document de Référence Technique pour le Corpus NotebookLM
-
-> **POURQUOI :** Les balises Schema.org sont le langage structuré que Google et les LLMs (ChatGPT, Claude, Perplexity) utilisent pour comprendre votre contenu. Sans elles, votre article est un texte parmi des milliards. Avec elles, il devient une entité identifiable, structurée, et priorisée dans les réponses des moteurs de recherche et des assistants IA.
->
-> **RÈGLE :** Ce document établit les CONTRAINTES (ce qui est OBLIGATOIRE, RECOMMANDÉ, INTERDIT) pour les 3 balises Schema.org utilisées par SAYDO. Il est destiné à être intégré dans AGENTS.md et utilisé comme checklist technique par les agents IA.
-
-
-## SOMMAIRE
-
-| Section | Contenu |
-|---------|---------|
-| 1 | Vue d'ensemble des 3 balises |
-| 2 | Organization — Contraintes |
-| 3 | Article — Contraintes |
-| 4 | FAQPage — Contraintes |
-| 5 | Contraintes SEO |
-| 6 | Contraintes GEO (LLM Discovery) |
-| 7 | Contraintes techniques |
-| 8 | Check-list de validation |
-| 9 | Intégration dans le système |
-
-
-## SECTION 1 — VUE D'ENSEMBLE DES 3 BALISES
-
-### 1.1 Matrice de couverture
-
-| Balise | Rôle | SEO | GEO | Featured Snippets | Knowledge Panel |
-|--------|------|:---:|:---:|:---:|:---:|
-| **Organization** | Déclare SAYDO comme une entité (nom, logo, description, liens sociaux) | ✅ | ✅ | ❌ | ✅ |
-| **Article** | Structure chaque contenu (titre, auteur, date, contenu, image) | ✅ | ✅ | ✅ | ❌ |
-| **FAQPage** | Structure les questions/réponses en format interrogatif | ✅ | ✅ | ✅ | ❌ |
-
-### 1.2 Règle de présence
-
-| Balise | Pages concernées | Fréquence |
-|--------|------------------|-----------|
-| **Organization** | Page d'accueil + TOUTES les pages | 1 fois par page |
-| **Article** | Chaque article de blog | 1 fois par article |
-| **FAQPage** | Chaque article de blog (en bas) | 1 fois par article |
-
-
-## SECTION 2 — ORGANIZATION — CONTRAINTES
-
-### 2.1 Champs OBLIGATOIRES
-
-| Champ | Type | Contenu | Exemple |
-|-------|------|---------|---------|
-| **`@context`** | String | `https://schema.org` | "https://schema.org" |
-| **`@type`** | String | `Organization` | "Organization" |
-| **`@id`** | URL | Identifiant unique permanent | "https://saydo.fr/#organization" |
-| **`name`** | String | Nom exact de la marque | "SAYDO" |
-| **`url`** | URL | URL du site | "https://saydo.fr" |
-| **`logo`** | URL | URL du logo (format carré recommandé) | "https://saydo.fr/logo.png" |
-| **`description`** | Text | 60-160 caractères, contient les mots-clés principaux | "SAYDO — Intelligence Clinique Ambiante pour orthodontistes. Scribe ambiant certifié HDS." |
-
-### 2.2 Champs RECOMMANDÉS
-
-| Champ | Type | Contenu | Exemple |
-|-------|------|---------|---------|
-| **`sameAs`** | Array URLs | Liens vers profils sociaux (au moins 2) | ["https://linkedin.com/company/saydo", "https://twitter.com/saydo"] |
-| **`foundingDate`** | Date | Date de fondation | "2025-01-01" |
-| **`foundingLocation`** | PostalAddress | Localisation | Paris, France |
-| **`legalName`** | String | Nom légal de l'entreprise | "SAYDO SAS" |
-| **`contactPoint`** | Object | Coordonnées de contact | email, téléphone |
-
-### 2.3 Contraintes de cohérence
-
-| Contrainte | Détail |
-|------------|--------|
-| **Identifiant unique** | L'`@id` DOIT être identique sur TOUTES les pages. Une seule entité SAYDO. |
-| **Cohérence nom** | Le `name` DOIT être identique sur le site, les réseaux sociaux, et les autres balises. |
-| **Cohérence logo** | Le `logo` DOIT être le même que celui affiché sur le site. Format PNG ou JPEG, carré. |
-| **Description** | DOIT contenir au moins 2 mots-clés principaux : "Intelligence Clinique Ambiante" et "scribe ambiant" |
-| **sameAs** | Les liens DOIVENT être actifs et renvoyer vers SAYDO. Minimum 2 : LinkedIn + un autre. |
-
-### 2.4 Contraintes d'emplacement
-
-| Contrainte | Détail |
-|------------|--------|
-| **Page d'accueil** | Balise Organization COMPLÈTE (tous les champs) |
-| **Pages internes** | Référence à l'Organization via `@id` (balise simplifiée ou simple référence) |
+# CONTRAINTES SEO, GEO & LLM DISCOVERIES — V2.0
+**Version :** 2.0  
+**Date :** 30 juin 2026  
+**Usage :** Checklist technique obligatoire pour chaque article et pour le site.
 
 ---
 
-## SECTION 3 — ARTICLE — CONTRAINTES
+## 1. Les 3 Balises Obligatoires
 
-### 3.1 Champs OBLIGATOIRES
-
-| Champ | Type | Contenu | Exemple |
-|-------|------|---------|---------|
-| **`@context`** | String | `https://schema.org` | "https://schema.org" |
-| **`@type`** | String | `BlogPosting` ou `Article` | "BlogPosting" |
-| **`@id`** | URL | Identifiant unique de l'article | "https://saydo.fr/blog/titre/#article" |
-| **`headline`** | String | Titre EXACTEMENT identique au H1 | "Comment gagner 2h par jour avec SAYDO" |
-| **`description`** | Text | EXACTEMENT identique à la meta description | "Découvrez comment SAYDO rend 2h par jour aux orthodontistes" |
-| **`author`** | Object | Auteur de l'article | {"@type": "Person", "name": "Dr. X"} |
-| **`datePublished`** | Date | Date de publication (ISO 8601) | "2025-01-15T10:00:00+01:00" |
-| **`dateModified`** | Date | Date de dernière modification (ISO 8601) | "2025-01-15T10:00:00+01:00" |
-| **`mainEntityOfPage`** | URL | URL canonique de l'article | "https://saydo.fr/blog/titre/" |
-| **`image`** | URL | Image principale de l'article | "https://saydo.fr/blog/titre/image.jpg" |
-| **`publisher`** | Object | Référence vers Organization | {"@id": "https://saydo.fr/#organization"} |
-
-### 3.2 Champs RECOMMANDÉS
-
-| Champ | Type | Contenu | Exemple |
-|-------|------|---------|---------|
-| **`about`** | Text | Sujet de l'article (mots-clés) | "Orthodontie, Intelligence Clinique Ambiante, charge administrative" |
-| **`keywords`** | String | Liste de mots-clés séparés par des virgules | "scribe ambiant, IA médicale, orthodontie, HDS" |
-| **`articleSection`** | Text | Catégorie de l'article | "Orthodontie, Santé dentaire" |
-| **`articleBody`** | Text | Contenu complet de l'article | "..." |
-| **`wordCount`** | Integer | Nombre de mots de l'article | 1500 |
-
-### 3.3 Contraintes de cohérence
-
-| Contrainte | Détail |
-|------------|--------|
-| **Headline = H1** | Le `headline` DOIT être STRICTEMENT identique au H1 de la page. Une faute d'orthographe ou un mot différent = Google ignore la balise. |
-| **Description = Meta** | La `description` DOIT être STRICTEMENT identique à la meta description. |
-| **Dates ISO 8601** | `datePublished` et `dateModified` DOIVENT être au format ISO 8601 AVEC décalage horaire (ex: `+01:00` pour Paris). |
-| **Auteur réel** | L'auteur DOIT être une personne réelle (pas un nom d'entreprise). De préférence le co-fondateur orthodontiste pour l'autorité médicale. |
-| **Publisher référence** | Le `publisher` DOIT faire référence à l'Organization via `@id`. Ne PAS recréer un objet Organization. |
-
-### 3.4 Contraintes d'image
-
-| Contrainte | Détail |
-|------------|--------|
-| **Présence** | L'image est OBLIGATOIRE pour être éligible aux résultats enrichis |
-| **Format** | JPEG ou WebP, moins de 100KB (pour le chargement) |
-| **Dimension** | Au moins 1200×630 px pour les réseaux sociaux et les résultats enrichis |
-| **Contenu** | DOIT représenter le sujet de l'article (personne, schéma, graphique) |
-| **Alt text** | L'image DOIT avoir un alt text descriptif et contenir des mots-clés |
+| Balise         | Rôle principal                  | Où placer                  | Priorité |
+|----------------|---------------------------------|----------------------------|----------|
+| **Organization** | Déclarer SAYDO comme entité     | `<head>` de toutes les pages | Obligatoire |
+| **Article**      | Structurer le contenu           | Début du `<body>`          | Obligatoire |
+| **FAQPage**      | Questions/Réponses              | Fin du `<body>`            | Obligatoire (5-7 questions) |
 
 ---
 
-## SECTION 4 — FAQPAGE — CONTRAINTES
+## 2. Règles de Cohérence (Obligatoires)
 
-### 4.1 Champs OBLIGATOIRES
+- **`@id`** : Identifiant unique et **stable** sur tout le site (`https://saydo.fr/#organization` pour l’entreprise).
+- **`headline`** = **H1 exact** de l’article.
+- **`description`** = **Meta description exacte**.
+- **Auteur** : Personne réelle (idéalement le co-fondateur orthodontiste).
+- **Publisher** : Toujours référencer l’Organization via `@id`.
+- **Dates** : Format ISO 8601 avec fuseau (`+01:00`).
 
-| Champ | Type | Contenu | Exemple |
-|-------|------|---------|---------|
-| **`@context`** | String | `https://schema.org` | "https://schema.org" |
-| **`@type`** | String | `FAQPage` | "FAQPage" |
-| **`@id`** | URL | Identifiant unique de la FAQ | "https://saydo.fr/blog/titre/#faq" |
-| **`mainEntity`** | Array | Liste de questions-réponses (5 minimum) | [...] |
+---
 
-### 4.2 Champs OBLIGATOIRES par question
+## 3. Contraintes SEO
 
-| Champ | Type | Contenu | Exemple |
-|-------|------|---------|---------|
-| **`@type`** | String | `Question` | "Question" |
-| **`name`** | String | La question (format interrogatif) | "Comment SAYDO remplit-il Orthalis automatiquement ?" |
-| **`acceptedAnswer`** | Object | La réponse structurée | — |
-| **`@type`** (Answer) | String | `Answer` | "Answer" |
-| **`text`** | Text | La réponse (100-200 mots) | "SAYDO utilise le module TES..." |
+- Mots-clés principaux dans H1, TL;DR et premier H2.
+- Phrases courtes (15-25 mots en moyenne).
+- Listes et tableaux pour featured snippets.
+- Image principale (1200×630 px minimum) avec alt text contenant mots-clés.
 
-### 4.3 Contraintes de nombre
+---
 
-| Contrainte | Détail |
-|------------|--------|
-| **Minimum** | 5 questions PAR ARTICLE. En-dessous, Google ignore la balise. |
-| **Maximum** | 10 questions par page. Au-delà, Google peut ignorer les trop nombreuses. |
-| **Optimum** | 5-7 questions pour un bon équilibre SEO/GEO. |
+## 4. Contraintes GEO / LLM Discovery (Priorité Haute)
 
-### 4.4 Contraintes de format des questions
+- FAQPage : Minimum 5 questions, maximum 7. Questions réelles et conversationnelles ("LLM natives").
+- Blocs autonomes : Chaque section doit pouvoir être citée seule par une IA.
+- Organization complète : Permet aux LLMs de bien identifier SAYDO comme source fiable.
 
-| Contrainte | Détail |
-|------------|--------|
-| **Format interrogatif** | Les questions DOIVENT commencer par : Comment, Pourquoi, Quand, Combien, Qu'est-ce que, etc. |
-| **Longueur** | 8-15 mots. Trop court = vague. Trop long = brouillon. |
-| **Nature** | Questions QUE les praticiens posent réellement. Pas des questions inventées. |
-| **Spécificité** | DOIVENT être spécifiques au sujet de l'article et au persona cible. |
-| **LLM natives** | **Au moins 1 question sur 2** doit être une "question LLM native" — formulation longue et conversationnelle que les praticiens tapent dans ChatGPT (ex: "Comment réduire le temps que je passe à écrire mes comptes-rendus orthodontiques ?") |
+---
 
-### 4.5 Contraintes de format des réponses
+## 5. Checklist Validation (à cocher avant publication)
 
-| Contrainte | Détail |
-|------------|--------|
-| **Longueur** | 100-200 mots maximum. Au-delà, Google tronque et les LLMs ignorent. |
-| **Directe** | La réponse DOIT répondre DIRECTEMENT à la question. Pas de détour, pas de teasing. |
-| **Structure** | 3-4 phrases maximum. Si plus, structurer en puces. |
-| **Vérifiable** | Les réponses DOIVENT être vérifiables et sourçables (pas de promesses vides). |
-| **Données** | Si possible, inclure un chiffre ou une donnée (ex: "2-3h par jour"). |
+- [ ] Organization présente et cohérente
+- [ ] Article avec headline = H1 et description = meta
+- [ ] FAQPage avec 5-7 questions réelles
+- [ ] `@id` stables et référencés
+- [ ] Image principale + alt text
+- [ ] Pas de redondance avec d’autres articles
 
-### 4.6 Contraintes de cohérence
-
-| Contrainte | Détail |
-|------------|--------|
-| **Unicité** | Les questions NE DOIVENT PAS être identiques d'un article à l'autre. Chaque article a sa propre FAQ unique. |
-| **Ciblage** | La FAQ doit couvrir 3 questions sur le sujet de l'article + 2 questions adjacentes (HDS, TES, ROI). |
-| **Ordre** | Les questions les plus importantes (ou "LLM natives") doivent être en premier. |
-| **Persona** | La FAQ doit être adaptée au persona cible (Patientcentrique / Technocentrique / Argentcentrique). |
-
-### 4.7 Exemples de questions "LLM natives"
-
-| Question LLM native | Article associé | Persona |
-|---------------------|-----------------|---------|
-| *"Comment réduire le temps que je passe à écrire mes comptes-rendus orthodontiques ?"* | Tous | Patientcentrique |
-| *"Est-ce que SAYDO fonctionne avec Orthalis sans API ?"* | Techniques | Technocentrique |
-| *"Je suis orthodontiste, comment automatiser ma saisie administrative ?"* | Argentcentrique | Argentcentrique |
-| *"Est-ce que les données de mes patients sont protégées avec SAYDO ?"* | HDS | Patientcentrique |
-| *"Combien de temps un orthodontiste gagne-t-il par jour avec SAYDO ?"* | ROI | Argentcentrique |
-
-
-## SECTION 5 — CONTRAINTES SEO
-
-### 5.1 Emplacement des balises
-
-| Balise | Emplacement | Justification |
-|--------|-------------|---------------|
-| **Organization** | `<head>` | Google doit la lire en premier |
-| **Article** | Début du `<body>` (après le H1) | Structure le contenu principal |
-| **FAQPage** | Fin du `<body>` (avant le footer) | Structure les informations complémentaires |
-
-### 5.2 Règles de co-occurrence
-
-| Règle | Détail |
-|-------|--------|
-| **@id (Organization)** | DOIT être référencée par `publisher` dans Article ET par `about` dans FAQPage |
-| **@id (Article)** | DOIT être référencée par `mainEntity` dans FAQPage (via `mainEntityOfPage`) |
-| **@id (FAQPage)** | DOIT être référencée par `hasPart` dans Article (si applicable) |
-
-### 5.3 Fautes à éviter (pénalités)
-
-| Faute | Conséquence | Gravité |
-|-------|-------------|:---:|
-| Headline ≠ H1 | Google ignore la balise Article | Élevée |
-| Description ≠ Meta | Google ignore ou utilise la meta par défaut | Élevée |
-| Date future | La page n'apparaît pas dans les résultats | Élevée |
-| FAQ sans questions | Balise ignorée | Élevée |
-| Questions redondantes | Google ignore les questions en double | Moyenne |
-| Réponse trop longue (>300 mots) | Google tronque, LLM ignore | Moyenne |
-| Organization mal configurée | Pas de Knowledge Panel | Moyenne |
-| **@id non cohérent** | Les balises sont déconnectées | Élevée |
-| Logo manquant ou incorrect | Pas d'image dans les résultats enrichis | Moyenne |
-| Author = nom d'entreprise | Autorité sémantique réduite | Moyenne |
-
-
-## SECTION 6 — CONTRAINTES GEO (LLM DISCOVERY)
-
-### 6.1 Pourquoi les LLMs lisent ces balises
-
-| LLM | Utilisation de Schema.org | Importance |
-|-----|---------------------------|:---:|
-| **ChatGPT (OpenAI)** | Identifie la source et structure la réponse | Élevée |
-| **Claude (Anthropic)** | Comprend l'organisation du contenu | Élevée |
-| **Perplexity** | Utilise FAQPage comme priorité N°1 pour générer les réponses | **TRÈS ÉLEVÉE** |
-| **Google Gemini** | S'enrichit du balisage structuré pour le Knowledge Graph | Élevée |
-
-### 6.2 Règles GEO
-
-| Règle | Détail | Priorité |
-|-------|--------|:---:|
-| **FAQPage obligatoire** | Sans FAQPage, le contenu est moins susceptible d'être cité par les LLMs | TRÈS ÉLEVÉE |
-| **Questions LLM natives** | Au moins 1 question sur 2 en formulation conversationnelle | ÉLEVÉE |
-| **Réponses courtes** | 100-200 mots maximum — les LLMs tronquent les longues réponses | ÉLEVÉE |
-| **Réponses directes** | Réponse directe en 3-4 phrases, pas de détour | ÉLEVÉE |
-| **Données chiffrées** | Les LLMs valorisent les réponses avec des chiffres précis | MOYENNE |
-| **Structure de citation** | Les LLMs citent les sources structurées. Une bonne FAQ = plus de citations | ÉLEVÉE |
-| **Questions dans l'article** | Les questions de la FAQ DOIVENT apparaître DANS le corps de l'article | MOYENNE |
-
-### 6.3 Ce que Perplexity cherche dans une FAQ
-
-| Élément | Poids | Détail |
-|---------|:---:|--------|
-| **Questions conversationnelles** | Élevé | "Comment puis-je..." plutôt que "Méthode d'automatisation" |
-| **Réponses concises** | Élevé | 100-200 mots, pas plus |
-| **Structure claire** | Moyen | Question → Réponse → Source (si applicable) |
-| **Lien vers la source** | Moyen | `mainEntityOfPage` renvoie vers l'article |
-| **Réponses riches en données** | Élevé | Chiffres, citations, exemples |
-
-### 6.4 Ce que ChatGPT/Copilot cherchent
-
-| Élément | Poids | Détail |
-|---------|:---:|--------|
-| **Article structuré** | Élevé | Title, description, author, date = repères temporels |
-| **About/Keywords** | Moyen | Sujet de l'article = ce qu'il faut citer |
-| **FAQPage** | Élevé | Questions → réponses → source |
-| **Organization** | Moyen | Qui est le créateur du contenu |
-
-### 6.5 Règle de non-répétition
-
-| Règle | Détail |
-|-------|--------|
-| **Questions uniques** | Les LLMs pénalisent la répétition. Chaque article DOIT avoir une FAQ unique. |
-| **Réponses adaptées** | Les réponses DOIVENT être adaptées au persona de l'article. |
-| **Pas de copier-coller** | Ne PAS utiliser la même FAQ sur tous les articles. Google détecte le duplicate content et les LLMs l'ignorent. |
-
-
-## SECTION 7 — CONTRAINTES TECHNIQUES
-
-### 7.1 Format de balisage
-
-| Format | Statut | Raison |
-|--------|--------|--------|
-| **JSON-LD** | ✅ OBLIGATOIRE | Recommandé par Google, facile à implémenter, séparé du HTML |
-| Microdata | ❌ NON RECOMMANDÉ | Plus difficile à maintenir, moins lisible |
-| RDFa | ❌ NON RECOMMANDÉ | Plus complexe |
-
-**Contrainte :** Toutes les balises DOIVENT être au format JSON-LD dans une balise `<script type="application/ld+json">`.
-
-### 7.2 Validation
-
-| Outil | Utilisation | Obligatoire |
-|-------|-------------|:---:|
-| **Rich Results Test** (Google) | Vérifier que les balises sont reconnues | ✅ OUI |
-| **Schema.org Validator** | Vérifier la syntaxe JSON-LD | ✅ OUI |
-| **Google Search Console** | Vérifier les problèmes d'indexation | ✅ OUI |
-| **Google Mobile-Friendly Test** | Vérifier que les balises sont lisibles sur mobile | ❌ NON |
-
-### 7.3 Fautes techniques à éviter
-
-| Faute | Conséquence | Détection |
-|-------|-------------|-----------|
-| Virgule mal placée dans JSON | Balise ignorée | Validator Schema.org |
-| Guillemets non échappés dans JSON | Balise ignorée | Validator Schema.org |
-| URL invalide | Balise partiellement lue | Rich Results Test |
-| Date non ISO 8601 | Balise ignorée | Rich Results Test |
-| **@id non cohérent** | Balises déconnectées | Validation manuelle |
-| Réponse avec HTML | Balise ignore le HTML | Rich Results Test |
-
-
-## SECTION 8 — CHECKLIST DE VALIDATION
-
-### 8.1 Checklist — Organization
-
-- [ ] `@context` = "https://schema.org"
-- [ ] `@type` = "Organization"
-- [ ] `@id` = "https://saydo.fr/#organization"
-- [ ] `name` = "SAYDO"
-- [ ] `url` = "https://saydo.fr"
-- [ ] `logo` = URL valide du logo
-- [ ] `description` = 60-160 caractères, contient "Intelligence Clinique Ambiante" ET "scribe ambiant"
-- [ ] `sameAs` = au moins 2 liens (LinkedIn + autre)
-- [ ] Présent sur TOUTES les pages
-
-### 8.2 Checklist — Article
-
-- [ ] `@context` = "https://schema.org"
-- [ ] `@type` = "BlogPosting"
-- [ ] `@id` = "https://saydo.fr/blog/{slug}/#article"
-- [ ] `headline` = STRICTEMENT identique au H1
-- [ ] `description` = STRICTEMENT identique à la meta description
-- [ ] `author` = nom d'une personne réelle (co-fondateur)
-- [ ] `datePublished` = format ISO 8601 avec décalage
-- [ ] `dateModified` = format ISO 8601 avec décalage
-- [ ] `mainEntityOfPage` = URL canonique
-- [ ] `image` = URL valide, < 100KB
-- [ ] `publisher` = {"@id": "https://saydo.fr/#organization"}
-- [ ] `about` = contient les mots-clés principaux
-- [ ] `articleSection` = catégorie de l'article
-
-### 8.3 Checklist — FAQPage
-
-- [ ] `@context` = "https://schema.org"
-- [ ] `@type` = "FAQPage"
-- [ ] `@id` = "https://saydo.fr/blog/{slug}/#faq"
-- [ ] 5 questions minimum (5-7 idéal)
-- [ ] Au moins 1 question sur 2 = "LLM native"
-- [ ] Questions = format interrogatif
-- [ ] Réponses = 100-200 mots maximum
-- [ ] Réponses = directes, vérifiables
-- [ ] Questions uniques (pas de duplication d'un article à l'autre)
-- [ ] Questions liées au sujet de l'article
-- [ ] FAQ adaptée au persona de l'article
-
-### 8.4 Checklist — Cohérence générale
-
-- [ ] Les 3 balises sont présentes sur la page
-- [ ] Les informations (nom, url, logo) sont cohérentes sur les 3 balises
-- [ ] Pas de fautes de syntaxe JSON-LD
-- [ ] Test validé via Rich Results Test (Google)
-- [ ] @id cohérents entre les balises
-
+**Règle d’or** : Le contenu doit être compréhensible à la fois par Google, Perplexity, Claude et un orthodontiste.

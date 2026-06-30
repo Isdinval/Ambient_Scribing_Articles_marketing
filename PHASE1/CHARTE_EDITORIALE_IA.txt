@@ -1,341 +1,87 @@
-# POSITIONNEMENT CONCURRENTIEL DOCUMENTÉ
-
-> **POURQUOI** : Sans charte, les agents produisent un style différent à chaque article. La charte transforme des contenus corrects en une voix de marque reconnaissable. C'est le filtre qui rend chaque article immédiatement identifiable comme SAYDO, pas comme un article générique sur l'IA médicale.
-
-
-### 1.2 Règles concrètes
-
-| Règle | Exemple |
-|-------|---------|
-| **Niveau de lecture** | Équivalent à une revue professionnelle (*L'Information Dentaire*, *Le Chirurgien Dentiste de France*) |
-| **Longueur des phrases** | 15-25 mots en moyenne. Max 35 mots. Une phrase complexe = une phrase simple juste après. |
-| **Termes techniques** | Utilisés quand nécessaires, TOUJOURS explicités en contexte. |
-| **Métaphores** | Utilisées avec parcimonie. Une métaphore par article maximum. Toujours concrète (pas "l'IA est un couteau suisse"). |
-| **Chiffres** | Toujours sourcés ou contextualisés. "2h30 par jour" → précis, crédible. |
-| **Questions rhétoriques** | Une par section maximum. Toujours suivie d'une réponse. |
-| **"Vous"** | Utilisé systématiquement. Centré sur le praticien. Jamais "on" ou "nous" corporate. |
-
-### 1.3 Exemples de phrases "bonnes" vs "mauvaises"
-
-**❌ Mauvais (vulgarisation) :**
-> *"Dites adieu à la paperasse ! L'IA va transformer votre cabinet en un clin d'œil."*
-
-**✅ Bon (expert accessible) :**
-> *"Un orthodontiste perd en moyenne 2h30 par jour en tâches administratives. SAYDO les récupère."*
+# CHARTE ÉDITORIALE IA SAYDO — V2.1
+**Version :** 2.1  
+**Date :** 30 juin 2026  
+**Objectif :** Créer une voix de marque reconnaissable, professionnelle et convaincante pour tous les contenus.
 
 ---
 
-**❌ Mauvais (jargon technique) :**
-> *"Le pipeline utilise un modèle WhisperX finetuné sur un dataset de 10k consultations avec un système RAG pour le contexte clinique."*
+## 1. Principes Fondamentaux
 
-**✅ Bon (expert accessible) :**
-> *"SAYDO a été entraîné sur des milliers de consultations orthodontiques réelles. Il comprend le contexte clinique, pas seulement les mots."*
+**Niveau de langage** : Expert accessible  
+Un orthodontiste doit comprendre immédiatement, sans jargon d’ingénieur ni vulgarisation excessive.
 
----
+**Ton** :  
+- Centré sur **"vous" praticien** (jamais "nous").  
+- Concret, factuel, professionnel médical.  
+- Respectueux et proche du terrain.
 
-## SECTION 2 — STRUCTURE NARRATIVE SYSTÉMATIQUE
-
-> **RÈGLE :** Tous les contenus suivent la même architecture narrative. Elle est conçue pour capter l'attention, maintenir l'engagement et convertir.
-
-### 2.1 Structure détaillée d'un article
-
-| Section | Contenu exact | Longueur | Exemple d'amorce |
-|---------|---------------|----------|------------------|
-| **H1** | Bénéfice chiffré ou concret pour le persona | 60-70 car. | *"Comment gagner 2h par jour sans voir moins de patients"* |
-| **TL;DR** | Résumé des 3 points clés | 100 mots | *"Découvrez comment SAYDO..."* |
-| **Introduction** | Scène concrète (chiffre, citation, moment vécu) | 200 mots | *"Il est 20h. Vous venez de finir..."* |
-| **H2 - Problème** | L'ennemi nommé. Le prospect se reconnaît. | 300 mots | *"La double saisie : le voleur de temps silencieux"* |
-| **H2 - Solution** | SAYDO entre en scène | 300 mots | *"SAYDO ferme la boucle"* |
-| **H2 - Mécanisme** | Concret, accessible, sans jargon | 350 mots | *"Comment SAYDO remplit votre logiciel"* |
-| **H2 - Preuves** | Témoignages, chiffres bêta | 300 mots | *"Ce que les premiers utilisateurs disent"* |
-| **H2 - Objections** | FAQ intégrée dans le texte | 250 mots | *"Et la confidentialité des données ?"* |
-| **Conclusion** | Question ou invitation | 150 mots | *"Que feriez-vous avec 2h de plus par jour ?"* |
-| **CTA** | Action non-agressive | 50 mots | *"Vivez une consultation sans notes"* |
-| **FAQ** | 5 questions conversationnelles | 300 mots | *"Comment SAYDO gère-t-il les logiciels fermés ?"* |
-| **Résumé LLM** | 150 mots pour les agents IA | 150 mots | *"SAYDO est un scribe ambiant..."* |
-
-### 2.2 Règles de transition
-
-| Règle | Exemple |
-|-------|---------|
-| **Toujours une transition entre chaque H2** | Pas de sections hermétiques qui s'ignorent. |
-| **La transition pointe vers la suite** | *"Maintenant que le problème est posé, voyons comment SAYDO le résout."* |
-| **Transitions variées** | Pas toujours "Ensuite", "De plus". Variez : "Le problème ne s'arrête pas là...", "C'est là que SAYDO entre en jeu..." |
-
-### 2.3 Exemple d'introduction (bonne)
-
-**❌ Mauvais :**
-> *"Dans un monde où la charge administrative ne cesse d'augmenter, les orthodontistes cherchent des solutions innovantes pour améliorer leur quotidien..."*
-
-**✅ Bon :**
-> *"Il est 20h. Vous venez de finir votre dernière consultation. Pourtant, votre journée n'est pas terminée. Il vous reste encore 2h de comptes-rendus à écrire, de devis à saisir, de courriers à rédiger pour les dentistes traitants. Et vos enfants vous attendent pour dîner."*
-
-**Pourquoi ça marche :** La scène est concrète. Le lecteur se reconnaît immédiatement.
-
-### 2.4 Exemple de conclusion (bonne)
-
-**❌ Mauvais :**
-> *"En conclusion, SAYDO est une solution innovante qui répond aux besoins des orthodontistes modernes..."*
-
-**✅ Bon :**
-> *"SAYDO n'est pas une solution miracle. C'est un outil conçu par un orthodontiste pour des orthodontistes. Il ne remplace pas votre jugement clinique — il vous rend juste 2h par jour pour l'exercer. Alors, que feriez-vous avec 2h de plus par jour ?"*
-
-**Pourquoi ça marche :** Question ouverte. Le prospect projette sa vie avec 2h de plus.
+**Interdits absolus** :
+- Promesses médicales précises ("améliore les résultats")
+- Chiffres non sourcés
+- Hyperboles ("révolutionnaire", "magique", "game-changer")
+- "Nous chez SAYDO"
+- Anglicismes inutiles
 
 ---
 
-## SECTION 3 — CE QUE SAYDO DIT TOUJOURS
+## 2. Structure Narrative (Obligatoire pour tous les articles)
 
-> **RÈGLE :** Ces éléments apparaissent dans TOUS les contenus, à des degrés divers. Ils forment la signature SAYDO.
+- **Ouverture** : Vérité concrète (chiffre, scène vécue, verbatim). Jamais "Dans un monde où…".
+- **Transitions** : Phrase fluide entre chaque H2.
+- **Fermeture** : Question ou invitation forte. Jamais "En conclusion".
+- **Longueur cible** : 1800-2200 mots.
 
-### 3.1 Le fil rouge narratif (StoryBrand)
-
-Chaque article doit refléter ce cadre :
-
-| Élément narratif | Comment le dire |
-|------------------|-----------------|
-| **Le Héros** | Le praticien orthodontiste (pas SAYDO) |
-| **Le Problème** | La charge administrative vole son temps et son énergie |
-| **L'Ennemi** | La double saisie, le burnout administratif, les logiciels fermés |
-| **Le Guide** | SAYDO (l'allié, pas le sauveur) |
-| **Le Plan** | SAYDO écoute, structure, remplit |
-| **L'Appel à l'Action** | Essayer SAYDO (démo, accès bêta) |
-
-### 3.2 Les phrases "marque" à décliner
-
-| Situation | Phrase à utiliser |
-|-----------|-------------------|
-| **Présentation de SAYDO** | *"SAYDO est une Intelligence Clinique Ambiante pour l'orthodontie."* |
-| **Description du produit** | *"Votre scribe ambiant écoute la consultation et remplit votre logiciel automatiquement."* |
-| **Le problème** | *"La double saisie vole 2-3h par jour aux orthodontistes."* |
-| **La promesse** | *"SAYDO restitue aux orthodontistes le temps qu'ils passent à écrire, pour qu'ils le passent à soigner."* |
-| **La différenciation** | *"SAYDO va là où les autres scribes s'arrêtent : il remplit les logiciels fermés sans API."* |
-| **La souveraineté** | *"SAYDO est certifié HDS, hébergé en France. Vos données ne quittent jamais le territoire."* |
-| **Le CTA** | *"Vivez une consultation sans notes. Demandez votre démo."* |
-
-### 3.3 Personnalisation par persona
-
-| Persona | Angle | Mots-clés à privilégier |
-|---------|-------|------------------------|
-| **Patientcentrique** | Présence, écoute, soin, vocation | *"Être pleinement présent pour ses patients"* |
-| **Technocentrique** | Architecture, précision, innovation | *"Pipeline calibré, WER < 10%, similarité 96-99%"* |
-| **Argentcentrique** | ROI, productivité, croissance | *"2-3h récupérées par jour, calcul simple"* |
-
-### 3.4 Micro-formulations par situation
-
-| Situation | Micro-formulation |
-|-----------|-------------------|
-| **Réponse à l'objection "c'est un logiciel de plus"** | *"SAYDO ne s'ajoute pas à votre quotidien. Il remplace la partie que vous faites déjà — la saisie manuelle."* |
-| **Réponse à "j'ai déjà une secrétaire"** | *"Votre secrétaire va adorer SAYDO. Elle pourra se concentrer sur les patients, pas sur la ressaisie."* |
-| **Réponse à "je n'ai pas de problème de charge admin"** | *"Bien souvent, on ne mesure pas la charge administrative tant qu'on ne l'a pas supprimée. SAYDO vous permet de voir ce que vous avez gagné."* |
-| **Réponse à "combien ça coûte"** | *"Moins que 2h de secrétariat par semaine. Et ça vous rend 2-3h par jour."* |
+**Structure type** :
+1. H1 (bénéfice concret)
+2. TL;DR (80-100 mots)
+3. Introduction (scène vécue)
+4. H2 – Le problème (ennemi nommé)
+5. H2 – La solution SAYDO
+6. H2 – Comment ça marche (concret)
+7. H2 – Preuves & résultats (par persona)
+8. H2 – Objections
+9. Et maintenant ? + CTA
+10. FAQ (5 questions)
+11. <!-- Résumé LLM (150 mots) -->
 
 ---
 
-## SECTION 4 — CE QUE SAYDO NE DIT JAMAIS
+## 3. SEO / GEO / LLM (Règles prioritaires)
 
-> **RÈGLE :** Ces formulations sont interdites dans TOUS les contenus. Elles détruisent la crédibilité SAYDO.
-
-### 4.1 Les interdits absolus
-
-| Catégorie | Interdit | Pourquoi | Remplacer par |
-|-----------|----------|----------|---------------|
-| **Promesses médicales** | *"SAYDO améliore les résultats cliniques"* | Non vérifiable, engageant la responsabilité | *"SAYDO documente avec précision ce que vous faites"* |
-| **Promesses non sourcées** | *"SAYDO fait gagner 70% de temps"* | Chiffre sorti de nulle part | *"Les premiers utilisateurs rapportent une réduction de leur charge administrative de 50 à 70%"* |
-| **Hyperboles** | *"SAYDO est révolutionnaire"* | Galvaudé, déclenche la méfiance | Décrire le bénéfice concret |
-| **Corporate "nous"** | *"Chez SAYDO, nous croyons que..."* | Crée une distance | *"Vous pouvez soigner sans écrire"* |
-| **Vulgarisation** | *"L'IA fait tout à votre place !"* | Promesse trop large | Décrire ce que SAYDO fait précisément |
-| **Négativité envers concurrents** | *"X est nul / dangereux"* | Agressif, peu professionnel | Objectiver la différence |
-| **Anglicismes** | *"Game-changing", "Disruptif"* | Incompatible avec le registre médical | Vocabulaire français professionnel |
-| **Engagement** | *"SAYDO garantit..."* | Trop fort, sauf sur les points certifiés (HDS) | *"SAYDO permet de..."* |
-
-### 4.2 Les formulations à bannir (et leurs alternatives)
-
-| ❌ Interdit | ✅ Alternative |
-|-------------|----------------|
-| *"SAYDO va révolutionner votre cabinet"* | *"SAYDO rend 2h par jour aux orthodontistes"* |
-| *"Dites adieu à la paperasse !"* | *"Avec SAYDO, la saisie administrative diminue de 50 à 70%"* |
-| *"L'IA est le futur de l'orthodontie"* | *"SAYDO est conçu pour documenter ce que vous faites en consultation"* |
-| *"Nous vous proposons une solution innovante"* | *"SAYDO est un outil construit par un orthodontiste pour des orthodontistes"* |
-| *"C'est magique !"* | *"SAYDO écoute, structure, et remplit votre logiciel automatiquement"* |
-
-### 4.3 Test de filtrage
-
-Avant validation, posez-vous ces questions :
-
-| Question | Si oui → supprimer |
-|----------|-------------------|
-| Cette phrase promet-elle un résultat médical ? | ✅ Supprimer |
-| Cette phrase est-elle vérifiable ? | ✅ Supprimer |
-| Cette phrase est-elle compréhensible par un orthodontiste de 45 ans ? | ✅ Reformuler |
-| Cette phrase utilise-t-elle le "nous" corporate ? | ✅ Remplacer par "vous" |
-| Cette phrase critique-t-elle un concurrent nommément ? | ✅ Objectiver |
-| Cette phrase contient-elle un anglicisme non justifié ? | ✅ Reformuler |
+- Intégrer naturellement le mot-clé principal dans le H1, le TL;DR et le premier H2.
+- Phrases courtes (15-25 mots en moyenne).
+- Listes, tableaux et blocs autonomes pour faciliter l’extraction par les IA (Perplexity, Claude, etc.).
+- Chiffres toujours contextualisés ou sourcés.
+- Structure H2/H3 claire pour featured snippets.
 
 ---
 
-## SECTION 5 — LE "VRAI/FAUX" SAYDO — TEST DE VOIX
+## 4. Test de Voix SAYDO (à appliquer systématiquement)
 
-> **RÈGLE :** Si vous hésitez sur une formulation, appliquez le test suivant.
+Demandez-vous :  
+**« Cette phrase pourrait-elle être prononcée par un orthodontiste de 45 ans qui parle à un confrère ? »**
 
-### 5.1 Le test en 3 questions
+**Exemples :**
 
-| # | Question | Vrai SAYDO | Faux SAYDO |
-|---|----------|------------|------------|
-| 1 | Est-ce que la phrase pourrait être écrite par n'importe quelle startup IA ? | Non — elle est spécifique à l'orthodontie | Oui — c'est générique |
-| 2 | Est-ce que la phrase est vérifiable par un praticien ? | Oui — elle s'appuie sur une vérité terrain | Non — c'est une promesse vague |
-| 3 | Est-ce que la phrase est dans un registre professionnel médical ? | Oui — pas de jargon startup | Non — c'est du marketing général |
+**✅ Bon** :  
+"Un orthodontiste passe en moyenne 2h30 par jour à documenter ses actes plutôt qu’à les réaliser."
 
-### 5.2 Exemples "Vrai SAYDO" vs "Faux SAYDO"
-
-| Vrai SAYDO | Faux SAYDO |
-|------------|------------|
-| *"SAYDO est conçu par un orthodontiste qui a passé 10 ans en consultation"* | *"SAYDO est une plateforme innovante de santé connectée"* |
-| *"Il remplit Orthalis automatiquement après chaque consultation"* | *"SAYDO simplifie la gestion de votre cabinet"* |
-| *"Les données ne sortent pas de France (HDS)"* | *"SAYDO est sécurisé et respecte vos données"* |
-| *"Le praticien gagne en moyenne 2h par jour"* | *"SAYDO améliore la performance de votre cabinet"* |
-| *"SAYDO écoute la consultation et structure en 30 champs cliniques"* | *"SAYDO est un assistant IA intelligent"* |
-
-### 5.3 Le prompt de voix
-
-Pour vous aider à vérifier une phrase, demandez-vous :
-
-> *"Est-ce que cette phrase pourrait être prononcée par un orthodontiste de 45 ans qui s'adresse à un confrère ?"*
-
-Si oui → ✅ Bon.
-Si non, et que ça ressemble à un commercial ou à un ingénieur → ❌ Reformuler.
+**❌ Mauvais** :  
+"Dites adieu à la paperasse, l’IA va révolutionner votre cabinet !"
 
 ---
 
-## SECTION 6 — FORMATAGE TECHNIQUE (pour les agents IA)
+## 5. Checklist Validation Rapide (avant publication)
 
-> **RÈGLE :** Instructions spécifiques pour que Jules et Claude produisent du contenu au bon format.
-
-### 6.1 Format des articles (Markdown)
-
-| Élément | Format |
-|---------|--------|
-| Titre principal | `# Titre (60-70 caractères)` |
-| TL;DR | `> **TL;DR :** ... (100 mots max)` |
-| Introduction | Pas de sous-titre. Texte direct. |
-| Sections | `## Titre de section` |
-| Sous-sections | `### Titre de sous-section` |
-| Conclusion | `## Et maintenant ?` (ou question) |
-| FAQ | `## Foire aux questions` |
-| Résumé LLM | `<!-- Résumé LLM : ... 150 mots -->` |
-
-### 6.2 Format des emails nurturing
-
-| Élément | Format |
-|---------|--------|
-| Objet | 40-60 caractères. Bénéfice ou question. |
-| Salutation | *"Bonjour Docteur,"* |
-| Corps | 250-300 mots. Structure : problème → solution → preuve → CTA. |
-| Signature | *"L'équipe SAYDO"* (uniquement pour les emails) |
-| P.S. | Une phrase — question ou invitation. |
-
-### 6.3 Format des threads LinkedIn
-
-| Élément | Format |
-|---------|--------|
-| Structure | 7 tweets numérotés. |
-| Longueur tweet | 280-320 caractères. |
-| Accroche | 1er tweet = 5 secondes pour capter l'attention. |
-| Rythme | Problème → solution → preuve → CTA. |
-| Emojis | Un par tweet maximum. Un émoji par section. |
-
-### 6.4 Format des citations / cards
-
-| Élément | Format |
-|---------|--------|
-| **Structure** | Citation + Nom + Titre |
-| **Longueur** | 15-25 mots |
-| **Style** | Une phrase percutante, sans jargon |
-| **Exemple** | *"Je gagne 2h par jour. Honnêtement ? Je ne sais même plus comment j'ai fait avant."* — Dr. Martin, orthodontiste à Lyon |
-
-### 6.5 Format des accroches de post
-
-| Élément | Format |
-|---------|--------|
-| **Objectif** | Capter l'attention en 5 secondes |
-| **Longueur** | 1 phrase, 20-30 mots |
-| **Style** | Chiffre, question, ou scène |
-| **Exemple** | *"3h par jour. C'est le temps que les orthodontistes passent à écrire au lieu de soigner."* |
-| **3 variantes** | 1. Directe (chiffrée) / 2. Storytelling / 3. Provocante |
-
-### 6.6 Format des titres A/B
-
-| Élément | Format |
-|---------|--------|
-| **Version A** | Bénéfice direct (chiffré) |
-| **Version B** | Curiosité / mystère |
-| **Version C** | Émotion / transformation |
-| **Exemple** | A: *"Comment gagner 2h par jour sans voir moins de patients"*<br>B: *"L'IA qui écoute les orthodontistes"*<br>C: *"Burnout administratif : la solution qui redonne le sourire"* |
+- Ouverture concrète ?  
+- "Vous" systématique ?  
+- Au moins un ennemi nommé ?  
+- Transitions fluides ?  
+- Chiffres sourcés ?  
+- Pas d’hyperbole ni promesse médicale ?  
+- Structure SEO/GEO respectée ?  
+- Question ou invitation en fin d’article ?
 
 ---
 
-
----
-
-## SECTION 7 — EXEMPLES DE CONTENU "BON" ET "MAUVAIS"
-
-### 7.1 Exemple d'introduction
-
-**❌ Mauvais (vulgarisation + "nous" corporate + promesse vide) :**
-> *"Chez SAYDO, nous croyons que l'IA va révolutionner votre cabinet ! Dites adieu à la paperasse et bonjour à une pratique médicale moderne et simplifiée."*
-
-**✅ Bon (scène concrète + "vous" + bénéfice concret) :**
-> *"Il est 20h. Vous venez de finir votre dernière consultation. Pourtant, votre journée n'est pas terminée. Il vous reste encore 2h de comptes-rendus à écrire. Avec SAYDO, ces 2h vous sont rendues."*
-
----
-
-### 7.2 Exemple de présentation produit
-
-**❌ Mauvais (générique + anglicismes) :**
-> *"SAYDO est une solution disruptive qui utilise l'IA pour optimiser votre workflow."*
-
-**✅ Bon (spécifique + concret) :**
-> *"SAYDO est une Intelligence Clinique Ambiante qui écoute votre consultation, structure le compte-rendu en 30 champs cliniques, et le remplit automatiquement dans votre logiciel."*
-
----
-
-### 7.3 Exemple de conclusion
-
-**❌ Mauvais (conclusion plate) :**
-> *"En conclusion, SAYDO est la solution idéale pour les orthodontistes modernes."*
-
-**✅ Bon (question + invitation) :**
-> *"SAYDO n'est pas une solution miracle. C'est un outil qui vous rend 2h par jour pour soigner. Alors, que feriez-vous avec 2h de plus par jour ?"*
-
-
-## SECTION 8 — CHECKLIST DE VALIDATION D'UN CONTENU
-
-Avant de publier un contenu, vérifiez ces points :
-
-### Voix et ton
-- [ ] Le ton est "expert accessible" — ni jargon, ni vulgarisation
-- [ ] "Vous" est utilisé systématiquement — pas de "nous" corporate
-- [ ] Les phrases font 15-25 mots en moyenne
-- [ ] Aucune promesse médicale non vérifiable
-- [ ] Aucune comparaison non sourcée
-
-### Structure
-- [ ] Ouverture avec une vérité concrète (pas "Dans un monde où...")
-- [ ] Des transitions entre chaque H2
-- [ ] Conclusion avec une question ou une invitation (pas "En conclusion")
-- [ ] TL;DR en tête (100 mots)
-- [ ] FAQ en bas (5 questions)
-- [ ] Résumé LLM en toute fin (150 mots)
-
-### Vocabulaire
-- [ ] Mots autorisés utilisés : Intelligence Clinique Ambiante, scribe ambiant, souverain, praticien, consultation, charge administrative
-- [ ] Mots interdits absents : révolutionnaire, disruptif, game-changer, solution, synergies, IA (sans complément)
-
-### StoryBrand
-- [ ] Le praticien est le héros (pas SAYDO)
-- [ ] Le problème est clairement identifié
-- [ ] L'ennemi est nommé
-- [ ] SAYDO est le guide (pas le sauveur)
----
-
-
+**Règle d’or** : Chaque contenu doit être immédiatement identifiable comme SAYDO : concret, centré sur le praticien, professionnel et utile.
