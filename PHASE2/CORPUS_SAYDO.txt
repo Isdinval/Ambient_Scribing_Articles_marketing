@@ -1,76 +1,95 @@
-1. Résumé du positionnement SAYDO
-SAYDO est une Intelligence Clinique Ambiante qui restitue aux orthodontistes le temps qu'ils passent à écrire pour qu'ils le passent à soigner
-. Sa promesse centrale est de supprimer la charge administrative via un scribe qui écoute la consultation et remplit automatiquement le logiciel métier
-. Pour cela, elle s'appuie sur trois preuves : une souveraineté HDS totale (hébergement France), le module TES qui remplit les logiciels fermés sans API, et une conception par un orthodontiste en exercice
-. SAYDO combat explicitement trois ennemis : la double saisie, le burnout administratif et les logiciels fermés
-. En automatisant la documentation structurée en 30 champs cliniques, l'outil sécurise la chaîne de soin
-. Contrairement aux solutions américaines soumises au Cloud Act, les données ne quittent jamais le territoire
-. Le système garantit une précision médicale de 96 à 99%
-. L'objectif final est un futur où le praticien ne touche plus à un formulaire administratif
-. C'est l'allié qui redonne du sens à la vocation médicale en libérant la présence du praticien
-.
-2. Tableau des personas
-Persona
-Douleur principale
-Objection principale
-Verbatim type
-Patientcentrique (Dr. Marie Laurent)
-Sentiment de ne pas être pleinement présente pour ses patients à cause des notes à prendre
-.
-Crainte de perdre le contact humain ou que l'outil ne soit pas fiable
-.
-"Je voudrais être plus présente pour mes patients, mais j'ai toujours ces notes à prendre..."
-Technocentrique (Dr. Jean Dubois)
-Frustration face aux logiciels fermés (Orthalis) et aux promesses technologiques non tenues
-.
-Scepticisme lié à de mauvaises expériences passées avec d'autres solutions
-.
-"Montrez-moi comment ça rentre dans Orthalis. Si ça marche vraiment, je signe."
-Argentcentrique (Dr. Ahmed Mansouri)
-Coût d'opportunité massif de la charge administrative (CA potentiel perdu)
-.
-Justification du coût de l'abonnement par rapport au bénéfice réel
-.
-"On perd trop de temps à ressaisir. Combien ça nous coûte ?"
-3. Liste des 10 affirmations factuelles vérifiées
-Un orthodontiste passe en moyenne 50 % de son temps à documenter ses actes plutôt qu'à soigner
-.
-La charge administrative représente environ 2h30 par jour pour un praticien libéral
-.
-Le module TES (Task Execution System) est le seul capable de remplir des logiciels fermés (Orthalis, Visiodent) sans API ni plugin
-.
-SAYDO est hébergé en France sur OVHcloud, certifié HDS (Hébergeur de Données de Santé) selon l'article L.1111-8 du Code de la Santé Publique
-.
-Le système présente une précision de transcription avec un taux d'erreur par mot (WER) inférieur à 10 %
-.
-La similarité sémantique sur des consultations orthodontiques réelles est mesurée entre 96 % et 99 %
-.
-67 % des médecins libéraux citent la charge administrative comme leur principale source de stress
-.
-L'abonnement est de 200 € HT / mois, contre 250 $ à 600 $ chez les concurrents américains
-.
-Le ROI estimé est de 51x (1 € investi permet de récupérer potentiellement 51 € de temps clinique)
-.
-Un médecin français sur quatre présente un burnout sévère
-.
-4. Formulations interdites (vocabulaire à bannir)
-Révolutionnaire : À remplacer par "nouveau" ou "inédit"
-.
-Disruptif : À remplacer par "différent" ou "approche inédite"
-.
-Game-changer : Préférer une description concrète du bénéfice
-.
-Solution : À remplacer par "logiciel", "scribe ambiant" ou "assistant"
-.
-Synergies : À remplacer par une description de la collaboration concrète
-.
-IA (utilisé seul) : Préférer "Intelligence Clinique Ambiante" ou "scribe ambiant IA"
-.
-Nous (corporate) : Toujours privilégier le "Vous" centré sur le praticien
-.
-Dites adieu à la paperasse ! : Jugé trop vulgaire/marketing, préférer des chiffres précis
-.
-C'est magique ! : Préférer expliquer le mécanisme technique (écoute, structure, remplit)
-.
-SAYDO garantit... : Interdit, sauf pour les points certifiés (HDS), préférer "SAYDO permet de..."
-.
+# CORPUS SAYDO — RÉFÉRENCE STRATÉGIQUE & ÉDITORIALE
+**Version :** Finale  
+**Date :** 30 juin 2026
+
+Ce corpus constitue la référence unique pour tous les contenus SAYDO.
+
+---
+
+## 1. Message House Core
+
+**Promesse Centrale** :  
+SAYDO restitue aux orthodontistes le temps qu’ils passent à écrire, pour qu’ils le passent à soigner.
+
+**Les 3 Ennemis** :  
+1. La double saisie — Ressaisir manuellement ce qui a été dit en consultation.  
+2. Le burnout administratif — Charge mentale volant la présence auprès du patient (67 % des praticiens stressés par l’administratif).  
+3. Les logiciels fermés — Systèmes sans API (Orthalis, Visiodent, etc.) bloquant l’automatisation.
+
+**Les 3 Preuves Béton** :  
+1. Souveraineté HDS totale — Hébergé en France (OVHcloud), conforme au Code de la Santé Publique.  
+2. Remplissage automatique — Capacité unique de remplir directement les logiciels métiers sans API.  
+3. Conçu par un orthodontiste — Traduit le langage naturel patient en documentation clinique technique rigoureuse.
+
+---
+
+## 2. Personas Synthèse
+
+| Persona              | Motivation principale       | Ennemi n°1             | Message Signature |
+|----------------------|-----------------------------|------------------------|-------------------|
+| **Patientcentrique** | Présence & relation patient | Présence volée         | "Votre consultation appartient à votre patient. Pas à votre clavier." |
+| **Technocentrique**  | Fiabilité & maîtrise        | Logiciels fermés       | "SAYDO va là où les autres s’arrêtent : il remplit directement votre logiciel." |
+| **Argentcentrique**  | ROI & optimisation          | Coût d’opportunité     | "200 €/mois pour récupérer 2 à 3h de temps clinique par jour." |
+
+**Verbatims clés** :  
+- Patientcentrique : "J’ai fait 10 ans d’études pour soigner, pas pour écrire."  
+- Technocentrique : "Montrez-moi comment ça rentre dans Orthalis. Si ça marche, je signe."  
+- Argentcentrique : "2h30 par jour de travail non clinique. C’est combien de CA perdu ?"
+
+---
+
+## 3. Chiffres Clés
+
+- **2h30/jour** : Temps administratif moyen perdu.  
+- **50 %** : Part du temps dédié à la documentation.  
+- **600 h/an** : Soit 25 jours de travail sacrifiés.  
+- **67 %** : Praticiens citant l’administratif comme 1re source de stress.  
+- **1 sur 4** : En burnout sévère.  
+- **80 000 – 130 000 €/an** : Coût d’opportunité.  
+- **30x à 50x** : ROI estimé.
+
+---
+
+## 4. Vocabulaire & Charte Éditoriale
+
+**Lexique Autorisé** : Intelligence Clinique Ambiante, Scribe ambiant, Souveraineté, Praticien, Charge administrative, Double saisie.
+
+**Interdits Absolus** : Révolutionnaire, magique, "IA" (seul), "Nous" (toujours "Vous"), hyperboles.
+
+**Règles Narratives** :  
+- Ouverture par une vérité concrète (chiffre ou scène).  
+- Phrases courtes (15-25 mots).  
+- Fermeture par une question ou invitation forte.  
+
+**Test de voix** : « Cette phrase pourrait-elle être prononcée par un orthodontiste de 45 ans parlant à un confrère ? »
+
+---
+
+## 5. Différenciation Concurrentielle
+
+| Concurrent     | Limite majeure                        | Différenciateur SAYDO |
+|----------------|---------------------------------------|-----------------------|
+| Askara         | S’arrête à la rédaction de notes      | Boucle fermée : remplissage direct du logiciel |
+| DentoAI        | Américain (HIPAA), intégration faible | Souveraineté HDS France + intégration locale |
+| Nuance Dragon  | Dictée vocale simple                  | Ambiant : écoute + structure sans intervention |
+
+**Argument Massue** : SAYDO est le seul à fermer complètement la boucle administrative.
+
+---
+
+## 6. Conformité Réglementaire
+
+- **HDS** : Certification obligatoire (Art. L.1111-8) — SAYDO est hébergé en France sur OVHcloud.  
+- **Souveraineté** : Données protégées du Cloud Act américain.  
+- **RGPD** : Conformité totale (minimisation et sécurité des données patients).  
+- **Tranquillité** : Prérequis pour appels d’offres et confiance des praticiens.
+
+---
+
+## 7. Règles d’usage pour Agents IA
+
+- Cibler un persona dominant par contenu.  
+- Nommer au moins un ennemi.  
+- Utiliser phrases courtes + listes pour SEO/GEO.  
+- FAQ : 5 à 7 questions conversationnelles ("LLM natives").  
+- Toujours centré sur le bénéfice praticien ("Vous").
