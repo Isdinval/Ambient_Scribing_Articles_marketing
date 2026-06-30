@@ -1,0 +1,318 @@
+# POSITIONNEMENT CONCURRENTIEL DOCUMENTÉ
+
+> **POURQUOI :** Un contenu qui ne se positionne pas explicitement contre les alternatives existantes laisse le prospect construire lui-même la comparaison — souvent défavorablement. Ce document est la source de vérité pour tous les agents IA lorsqu'ils doivent répondre à la question "Pourquoi SAYDO plutôt que X ?"
+
+
+## SYNTHÈSE EXÉCUTIVE
+
+| Concurrent | Catégorie | Menace | Différenciateur SAYDO |
+|------------|-----------|--------|----------------------|
+| **Askara** | Scribe IA dentaire → expansion orthodontie | **Élevée** | TES + HDS |
+| **DentoAI** | Scribe IA orthodontique US | **Moyenne** | HDS France + TES |
+| **Nuance Dragon Medical** | Transcription vocale | **Moyenne** | Boucle fermée (TES) |
+| **Nabla** | Scribe médical généraliste | **Faible** | Spécialisation orthodontie + TES |
+| **La Fraise** | Communication patient | **Faible** | Complémentaire |
+| **Abridge / Amazon HealthScribe** | Scribe médical US | **Nulle** | Hors marché français |
+
+
+## 1. CONCURRENTS DIRECTS — SCRIBE AMBIANT ORTHODONTIQUE
+
+### 1.1 Askara
+
+| Aspect | Détail |
+|--------|--------|
+| **Positionnement** | Plateforme IA qui automatise la rédaction de documents médicaux (comptes rendus, courriers patients, lettres d'adressage) |
+| **Mode de fonctionnement** | Assistant vocal intelligent : dictaphone (transcription) + Active Consult (écoute en direct) |
+| **Marché** | Dentisterie généraliste → expansion vers orthodontie |
+| **Utilisateurs** | 1 400 dentistes |
+| **Hébergement** | France (souveraineté) |
+| **Intégration** | Écosystème Global D |
+| **Financement** | Non documenté |
+
+**Forces**
+- Base utilisateur établie dans le dentaire généraliste (1 400 praticiens)
+- Expansion active vers l'orthodontie — menace directe
+- Souveraineté HDS revendiquée
+- Conçu par des chirurgiens-dentistes
+
+**Faiblesses**
+- S'arrête à la génération de documents (export/copie) — ne remplit PAS les logiciels
+- Positionnement généraliste, pas spécifique orthodontie
+- Moins calibré sur les spécificités orthodontiques
+
+**Différenciateur SAYDO**
+
+| Point | Askara | SAYDO |
+|-------|--------|-------|
+| Remplit les logiciels fermés | ❌ Non | ✅ Oui (TES) |
+| Spécialisation orthodontique | ❌ Expansion | ✅ Natif |
+| Calibration clinique | Dentisterie générale | Orthodontie |
+
+**Comment dire dans le contenu**
+> *"Les scribes médicaux transcrivent. SAYDO remplit votre logiciel. C'est la différence entre dicter et finir à 18h."*
+
+**Prix estimé** : Non documenté
+
+
+### 1.2 DentoAI
+
+| Aspect | Détail |
+|--------|--------|
+| **Positionnement** | "Premier assistant IA pour l'acceptation des cas et scribe ambiant construit pour les orthodontistes" |
+| **Mode de fonctionnement** | Scribe ambiant + plateforme d'acceptation des cas |
+| **Marché** | Orthodontie (ciblé) |
+| **Utilisateurs** | Non documenté |
+| **Hébergement** | US (HIPAA) |
+| **Intégration** | Intégrations en développement (non matures) |
+| **Financement** | Investissement stratégique de l'American Association of Orthodontists (AAO) |
+
+**Forces**
+- Positionnement pur "scribe ambiant orthodontique"
+- Crédibilité institutionnelle (AAO-backed)
+- Fondé par une orthodontiste
+- Double proposition de valeur (scribe + acceptation des cas)
+
+**Faiblesses**
+- Marché US — pas (encore) présent en France
+- Intégrations logicielles en développement
+- Souveraineté HIPAA (US) — non conforme HDS
+
+**Différenciateur SAYDO**
+
+| Point | DentoAI | SAYDO |
+|-------|---------|-------|
+| Souveraineté HDS France | ❌ HIPAA (US) | ✅ Oui |
+| Remplit les logiciels fermés | ❌ En développement | ✅ Oui (TES) |
+| Marché français | ❌ Non ciblé | ✅ Oui |
+
+**Comment dire dans le contenu**
+> *"Les données de vos patients ne traversent pas l'Atlantique. SAYDO est le seul scribe ambiant orthodontique certifié HDS hébergé en France."*
+
+
+## 2. CONCURRENTS INDIRECTS — TRANSCRIPTION & SCRIBE MÉDICAL
+
+### 2.1 Nuance Dragon Medical
+
+| Aspect | Détail |
+|--------|--------|
+| **Positionnement** | Transcription vocale médicale |
+| **Mode de fonctionnement** | Dictée vocale → texte |
+| **Marché** | Tous métiers de santé |
+| **Utilisateurs** | Utilisation massive |
+| **Hébergement** | US (Microsoft, Cloud Act) |
+| **Intégration** | Copier-coller manuel |
+
+**Forces**
+- Marque établie, utilisée par de nombreux praticiens
+- Reconnaissance vocale mature
+- Interface familière
+
+**Faiblesses**
+- S'arrête à la transcription — ne remplit PAS les logiciels
+- Solution US soumise au Cloud Act — non conforme HDS
+- Double saisie persiste
+
+**Différenciateur SAYDO**
+
+| Point | Nuance | SAYDO |
+|-------|--------|-------|
+| Remplit les logiciels fermés | ❌ Non | ✅ Oui (TES) |
+| Souveraineté HDS | ❌ Cloud Act | ✅ Oui |
+| Spécialisation orthodontique | ❌ Généraliste | ✅ Oui |
+
+**Comment dire dans le contenu**
+> *"Nuance transcrit. SAYDO agit. La différence ? Fini le copier-coller."*
+
+
+### 2.2 Nabla
+
+| Aspect | Détail |
+|--------|--------|
+| **Positionnement** | Scribe médical généraliste |
+| **Mode de fonctionnement** | Écoute de la consultation → génération de notes |
+| **Marché** | Tous métiers de santé |
+| **Utilisateurs** | Marché US/EU |
+| **Hébergement** | US |
+| **Intégration** | Export, pas remplissage |
+
+**Forces**
+- Communauté active
+- Reconnaissance de marque internationale
+- Interface moderne
+
+**Faiblesses**
+- Généraliste — pas calibré pour l'orthodontie
+- Solution US (souveraineté non garantie)
+- S'arrête à la note — ne remplit PAS les logiciels
+
+**Différenciateur SAYDO**
+
+| Point | Nabla | SAYDO |
+|-------|-------|-------|
+| Spécialisation orthodontique | ❌ Généraliste | ✅ Oui |
+| Remplit les logiciels fermés | ❌ Non | ✅ Oui (TES) |
+| HDS France | ❌ Non | ✅ Oui |
+
+
+### 2.3 Abridge / Amazon HealthScribe
+
+| Aspect | Détail |
+|--------|--------|
+| **Positionnement** | Scribe médical US |
+| **Marché** | US-only |
+| **Hébergement** | US (HIPAA, pas HDS) |
+| **Français médical** | ❌ Non |
+
+**Comment dire dans le contenu**
+> *"Les scribes américains ne sont pas certifiés HDS. SAYDO est français, souverain, et fait plus que transcrire."*
+
+
+## 3. ACTEURS COMPLÉMENTAIRES
+
+### 3.1 La Fraise
+
+| Aspect | Détail |
+|--------|--------|
+| **Positionnement** | Agent IA qui explique les devis dentaires aux patients |
+| **Problème résolu** | Réduction du renoncement aux soins |
+| **Utilisateurs** | 1 200 dentistes |
+| **Financement** | Levée 3,2M€ (2024) |
+| **Fondateurs** | 4 anciens de Doctolib |
+
+**Pourquoi ce N'EST PAS un concurrent**
+- Ne fait PAS de scribe ambiant (transcription/documentation)
+- Positionné sur la communication patient
+- Proposition de valeur complémentaire
+
+**Potentiel partenaire**
+- SAYDO : réduit la charge administrative du praticien
+- La Fraise : améliore la compréhension des patients
+- => Couverture de l'expérience complète du cabinet
+
+**Comment dire dans le contenu**
+> *"SAYDO ne vous dit pas comment expliquer les devis à vos patients. D'autres le font. Nous, on vous permet de finir à 18h."*
+
+
+### 3.2 VideaHealth
+
+| Aspect | Détail |
+|--------|--------|
+| **Positionnement** | Scribe IA pour la dentisterie (Voice Notes) |
+| **Marché** | US |
+| **Risque** | Marché du scribe dentaire s'industrialise aux US |
+| **Menace pour SAYDO** | **Nulle à court terme** (marché US) |
+
+**À surveiller**
+- Indicateur de tendance : les scribes IA envahissent la dentisterie américaine
+- La France suivra dans 12-24 mois
+- SAYDO a une longueur d'avance sur HDS + TES
+
+**Concurrents US à surveiller** (source CB Insights)
+- Overjet : IA dentaire (diagnostic, automatisation admin)
+- Denti.AI : transcription/documentation dentaire
+- Dental Monitoring : IA orthodontique (suivi à distance)
+- Pearl : IA radiologique
+
+
+## 4. TABLEAU COMPARATIF SYNTHÉTIQUE
+
+| Concurrent | Scribe Ambiant | Spécialisation Orthodontie | Remplit Logiciel (TES) | HDS France | Marché FR |
+|------------|:---:|:---:|:---:|:---:|:---:|
+| **SAYDO** | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Askara | ✅ | ❌ (en cours) | ❌ | ✅ | ✅ |
+| DentoAI | ✅ | ✅ | ❌ (en dev.) | ❌ | ❌ |
+| Nuance Dragon | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Nabla | ✅ | ❌ | ❌ | ❌ | ❌ |
+| La Fraise | ❌ | ❌ | ❌ | ✅ | ✅ |
+| VideaHealth | ✅ | ❌ | ❌ | ❌ | ❌ |
+
+
+## 5. POSITIONNEMENT GAGNANT POUR SAYDO
+
+**Positionnement unique en 3 piliers :**
+
+### Pilier 1 — Le seul scribe ambiant qui remplit les logiciels fermés
+
+> *"Tous les scribes médicaux transcrivent. Aucun ne remplit votre logiciel. SAYDO ferme la boucle avec TES."*
+
+**Contexte :** Askara, Nabla, Nuance — tous s'arrêtent à la transcription ou à la note structurée. SAYDO est le seul à agir sur le logiciel.
+
+### Pilier 2 — La seule solution française certifiée HDS
+
+> *"Nuance, Nabla, DentoAI, Abridge — tous sont américains soumis au Cloud Act. SAYDO est français, souverain, certifié HDS."*
+
+**Contexte :** Face à la montée des solutions US, la souveraineté est un argument de vente décisif pour les praticiens français.
+
+### Pilier 3 — Conçu par un orthodontiste pour des orthodontistes
+
+> *"SAYDO est entraîné sur des consultations orthodontiques réelles. Pas sur des données généralistes. Ce n'est pas un modèle promené — c'est un pipeline calibré."*
+
+**Contexte :** Askara vient de la dentisterie générale, Nabla de la médecine générale. SAYDO est le seul scribe orthodontique natif disponible en France.
+
+
+## 6. MENACE CONCURRENTIELLE — ANALYSE
+
+### Menace 1 — Askara (Élevée)
+
+**Pourquoi :**
+- 1 400 dentistes utilisateurs — base installée massive
+- Expansion vers l'orthodontie en cours
+- Souveraineté HDS revendiquée
+- Crédibilité du marché dentaire
+
+**Risque :** Un prospect dentaire qui connaît Askara pourrait ne pas chercher d'alternative.
+
+**Contre-argument SAYDO :**
+- Askara est un généraliste qui s'ouvre à l'orthodontie. SAYDO est natif.
+- Askara génère des documents. SAYDO remplit les logiciels.
+
+### Menace 2 — DentoAI (Moyenne)
+
+**Pourquoi :**
+- Positionnement pur "scribe ambiant orthodontique"
+- Crédibilité AAO
+- Rumeurs d'expansion vers l'Europe
+
+**Risque :** À moyen terme, DentoAI pourrait arriver sur le marché français.
+
+**Contre-argument SAYDO :**
+- Souveraineté HDS — avantage irréductible face à une solution US
+- TES — différence technique majeure
+- Marché français déjà enraciné
+
+### Menace 3 — Les autres (Faible)
+
+Nuance, Nabla, Abridge : positions établies mais ne couvrent ni l'orthodontie ni le remplissage de logiciels. Menace à long terme si l'IA américaine progresse en souveraineté (peu probable).
+
+
+## 7. INSTRUCTIONS POUR LES AGENTS IA
+
+Lorsque vous produisez du contenu mentionnant des concurrents, suivez ces règles :
+
+### Règle 1 — Ne jamais citer un concurrent sans objectiver
+
+**Mauvais :** *"SAYDO est mieux que Nabla."*
+
+**Bon :** *"Contrairement aux scribes généralistes, SAYDO est spécifiquement calibré sur 30 champs cliniques orthodontiques."*
+
+### Règle 2 — Citer seulement si c'est pertinent pour le persona
+
+- **Patientcentrique** → insister sur la souveraineté HDS (confiance patient)
+- **Technocentrique** → insister sur TES et les métriques (WER, similarité)
+- **Argentcentrique** → insister sur le ROI (TES = suppression d'un demi-poste)
+
+### Règle 3 — Leçon apprise
+
+Utilisez les formulations ci-dessous, adaptées au contexte :
+
+**Face à Askara :**
+> *"Askara a fait un excellent travail pour la dentisterie générale. SAYDO est construit spécifiquement pour les orthodontistes — et il ne s'arrête pas à la transcription. TES remplit votre logiciel."*
+
+**Face à DentoAI :**
+> *"DentoAI est un scribe orthodontique prometteur — mais il n'est pas certifié HDS en France et n'a pas encore d'intégration native avec vos logiciels. SAYDO a ces deux avantages aujourd'hui."*
+
+**Face à Nuance :**
+> *"Nuance transcrit. SAYDO agit."*
+
+**Face à "pourquoi ne pas rester comme avant" :**
+> *"Parce que vous perdez 2-3h par jour à faire une tâche qu'une machine peut faire mieux que vous pendant que vous soignez."*

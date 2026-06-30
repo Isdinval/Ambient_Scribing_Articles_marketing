@@ -1,0 +1,406 @@
+# 0.2 FICHES PERSONAS VALIDÉES
+
+> **POURQUOI :** Les personas marketing théoriques ne valent rien sans validation terrain. Le co-fondateur orthodontiste a une connaissance directe de ses confrères que ni toi ni les agents IA n'avez. Ce sont SES mots, SES objections, SES déclencheurs d'achat qui rendent les contenus crédibles. Un praticien qui se reconnaît dans les mots d'un article est infiniment plus proche de demander une démo.
+
+---
+
+## SOMMAIRE
+
+| Section | Contenu |
+|---------|---------|
+| 0.5 | SPÉCIFICITÉ DES PERSONAS SAYDO |
+| 1 | Vue d'ensemble des 3 personas |
+| 2 | Fiche détaillée - Patientcentrique |
+| 3 | Fiche détaillée - Technocentrique |
+| 4 | Fiche détaillée - Argentcentrique |
+| 5 | Matrice comparative des personas |
+| 6 | Verbatims réels (à remplir avec le co-fondateur) |
+| 7 | Moments de bascule |
+| 8 | PERSONAS ÉMERGENTS (À SURVEILLER)|
+
+
+PERSONAS ÉMERGENTS (À SURVEILLER)
+---
+
+## SECTION 0.5 — SPÉCIFICITÉ DES PERSONAS SAYDO
+
+> **RÈGLE :** Les personas SAYDO ne sont PAS des personas marketing standards (âge, genre, CSP). Ce sont des **archétypes de motivation** basés sur ce qui motive l'orthodontiste à agir.
+
+**Pourquoi cette approche :**
+- Les praticiens sont tous des professionnels de santé avec des profils démographiques proches
+- La différence n'est pas dans QUI ils sont, mais dans CE QUI LES MOTIVE
+- Un même praticien peut basculer d'un persona à l'autre selon le contexte
+
+**Les 3 archétypes :**
+
+| Archétype | Ce qui motive | Format de contenu |
+|-----------|---------------|-------------------|
+| **Patientcentrique** | La qualité du soin, la présence | Récits, témoignages, émotion |
+| **Technocentrique** | La compréhension technique | Benchmarks, métriques, architecture |
+| **Argentcentrique** | Le ROI, la croissance | Chiffres, calculs, études de cas |
+
+**Le persona dominant :**
+- Identifier avec le co-fondateur quel archétype est le plus présent dans SON réseau
+- Ce persona détermine l'ordre des 3 premiers articles
+
+
+
+
+## SECTION 1 — VUE D'ENSEMBLE DES 3 PERSONAS
+
+> **RÈGLE :** Les 3 personas couvrent les motivations principales des orthodontistes français. Chaque contenu est écrit POUR un persona spécifique, avec des angles, des mots-clés et des CTA différents.
+
+| Persona | Nom | Motivation principale | Ennemi principal |
+|---------|-----|----------------------|------------------|
+| **Patientcentrique** | Dr. Marie Laurent, 45 ans | Être pleinement présent pour ses patients | Sentiment de ne pas être à 100% en consultation |
+| **Technocentrique** | Dr. Jean Dubois, 50 ans | Comprendre et maîtriser la technologie | Logiciels fermés, promesses non tenues |
+| **Argentcentrique** | Dr. Ahmed Mansouri, 40 ans | Faire croître son cabinet comme une entreprise | Coût d'opportunité de la charge administrative |
+
+---
+
+## SECTION 2 — FICHE DÉTAILLÉE — PATIENTCENTRIQUE
+
+### 2.0 Journée type —
+
+| Heure | Activité | Pensée associée |
+|-------|----------|-----------------|
+| 8h00 | Arrivée au cabinet | *"J'espère que la journée sera calme."* |
+| 8h30 | 1er patient | *"Je dois me concentrer à 100%."* |
+| 10h00 | Pause | *"Je n'ai pas encore regardé mes comptes-rendus."* |
+| 12h30 | Pause déjeuner | *"Je devrais finir mes notes, mais je suis fatiguée."* |
+| 14h00 | Consultation | *"Mon patient me parle, je dois écrire en même temps. Ce n'est pas juste pour lui."* |
+| 18h00 | Fin des consultations | *"Encore 2h de comptes-rendus ce soir. Et mes enfants m'attendent pour dîner."* |
+| 20h00 | Rentrée à la maison | *"J'ai fini. Demain, je recommence."* |
+
+
+### 2.1 Identité
+
+| Élément | Détail |
+|---------|--------|
+| **Nom** | Dr. Marie Laurent |
+| **Âge** | 45 ans |
+| **Genre** | Femme |
+| **Situation** | Cabinet en ville, 2 associés, 3 secrétaires |
+| **Patientèle** | 25 patients par jour |
+| **Expérience** | 15 ans d'exercice en orthodontie |
+
+### 2.2 Contexte et mode de vie
+
+Marie est orthodontiste depuis 15 ans. Elle a choisi cette spécialité pour la relation humaine et la transformation qu'elle peut apporter aux patients. Elle est mère de deux adolescents. Son cabinet est bien établi en centre-ville.
+
+### 2.3 Ce qui la motive
+
+| Motivation | Détail |
+|------------|--------|
+| **Vocation** | *"J'ai fait 10 ans d'études pour soigner, pas pour taper sur un clavier."* |
+| **Présence** | Elle veut être pleinement disponible pour ses patients en consultation |
+| **Qualité** | Elle cherche à offrir le meilleur suivi possible |
+| **Équilibre** | Elle veut rentrer chez elle à 18h30 pour voir ses enfants |
+
+### 2.4 Ce qui la frustre
+
+| Frustration | Détail |
+|-------------|--------|
+| **Charge mentale** | Elle pense aux comptes-rendus en retard pendant qu'elle examine ses patients |
+| **Double saisie** | *"Je dicte, puis je ressaisis. Quelle perte de temps."* |
+| **Présence volée** | *"Mon patient me parle, et je dois écrire en même temps. Ce n'est pas juste pour lui."* |
+| **Burnout silencieux** | Elle rentre épuisée mentalement, pas physiquement |
+
+### 2.5 Comportement d'achat
+
+| Aspect | Détail |
+|--------|--------|
+| **Déclencheur** | Un confrère lui recommande SAYDO ou elle lit un témoignage qui la touche |
+| **Freins** | *"Est-ce que ça va vraiment marcher dans mon cabinet ?"* |
+| **Décision** | Plutôt lente — elle veut être sûre |
+| **Sources d'info** | Confrères, revues professionnelles, articles de blog |
+
+### 2.6 Objections typiques
+
+| Objection | Réponse SAYDO |
+|-----------|---------------|
+| *"Est-ce fiable ?"* | SAYDO est entraîné sur des milliers de consultations orthodontiques réelles, WER < 10% |
+| *"Mes patients vont-ils être dérangés ?"* | SAYDO est discret. Vous regardez votre patient, pas un écran. |
+| *"Je perds le contact humain ?"* | Au contraire — vous récupérez du temps pour être pleinement présent |
+
+### 2.7 Verbatims typiques
+
+| Situation | Ce qu'elle dit |
+|-----------|----------------|
+| **En consultation** | *"Je voudrais être plus présente pour mes patients, mais j'ai toujours ces notes à prendre..."* |
+| **En fin de journée** | *"Encore 2h de comptes-rendus ce soir. Et mes enfants m'attendent."* |
+| **Face à une solution** | *"Je ne veux pas un truc qui me complique la vie. Je veux juste soigner."* |
+| **Objection** | *"Est-ce que ça va vraiment marcher ou c'est un gadget de plus ?"* |
+
+### 2.8 Messages clés pour ce persona
+
+| Message | Formulation |
+|---------|-------------|
+| **Promesse** | *"Avec SAYDO, votre consultation appartient à votre patient. Pas à votre clavier."* |
+| **Problème** | *"Être à 80% en consultation parce que vous devez prendre des notes."* |
+| **Solution** | *"SAYDO écoute pour vous. Vous êtes présent à 100%."* |
+| **CTA** | *"Vivez une consultation sans notes."* |
+
+### 2.9 Angles de contenu prioritaires
+
+| Type d'article | Sujet |
+|----------------|-------|
+| Storytelling | *"Comment j'ai retrouvé le plaisir d'exercer"* (témoignage) |
+| Problème | *"La charge administrative : le burnout silencieux des orthodontistes"* |
+| Preuve sociale | *"Témoignage : 'Je ne sais même plus comment j'écrivais mes comptes-rendus avant' "* |
+| Émotion | *"Pourquoi j'ai failli arrêter l'orthodontie"* (avant/après) |
+
+---
+
+## SECTION 3 — FICHE DÉTAILLÉE — TECHNOCENTRIQUE
+
+### 3.1 Identité
+
+| Élément | Détail |
+|---------|--------|
+| **Nom** | Dr. Jean Dubois |
+| **Âge** | 50 ans |
+| **Genre** | Homme |
+| **Situation** | Cabinet en périphérie, seul praticien, 1 secrétaire |
+| **Patientèle** | 20 patients par jour |
+| **Expérience** | 20 ans d'exercice en orthodontie |
+
+### 3.2 Contexte et mode de vie
+
+Jean est orthodontiste depuis 20 ans. Il a toujours été attiré par les nouvelles technologies et a équipé son cabinet de scanners 3D et de logiciels de simulation. Mais il a été déçu par plusieurs "solutions" qui ne tenaient pas leurs promesses.
+
+### 3.3 Ce qui le motive
+
+| Motivation | Détail |
+|------------|--------|
+| **Innovation** | Il veut être à la pointe technologique dans son cabinet |
+| **Compréhension** | Il a besoin de comprendre comment ça fonctionne avant d'acheter |
+| **Fiabilité** | Il cherche des solutions qui tiennent leurs promesses |
+| **Efficacité** | Il veut simplifier ses processus sans perdre en qualité |
+
+### 3.4 Ce qui le frustre
+
+| Frustration | Détail |
+|-------------|--------|
+| **Promesses non tenues** | *"J'ai testé 4 solutions en 2 ans. Toutes s'arrêtent avant de remplir le logiciel."* |
+| **Logiciels fermés** | *"Orthalis ne s'ouvre pas. Pourquoi est-ce si compliqué ?"* |
+| **Double saisie** | *"Je dicte, la secrétaire retape. Pourquoi ça ne peut pas être automatique ?"* |
+| **Jargon marketing** | *"'Disruptif', 'game-changer'... je ne comprends même plus ce qu'on me vend."* |
+
+### 3.5 Comportement d'achat
+
+| Aspect | Détail |
+|--------|--------|
+| **Déclencheur** | Une preuve technique convaincante (WER, similarité, benchmark) |
+| **Freins** | *"J'ai été déçu avant. Prouvez-moi que ça marche."* |
+| **Décision** | Rapide si les preuves sont solides |
+| **Sources d'info** | Documentation technique, comparatifs, forums professionnels |
+
+### 3.6 Objections typiques
+
+| Objection | Réponse SAYDO |
+|-----------|---------------|
+| *"J'ai déjà testé 4 solutions"* | SAYDO va là où les autres s'arrêtent : il remplit votre logiciel. |
+| *"Comment ça marche vraiment ?"* | TES (Task Execution System) lit l'interface comme un humain. Vision par ordinateur + LLM local. |
+| *"C'est compatible avec Orthalis ?"* | SAYDO fonctionne sur tout logiciel Windows, sans API, sans plugin. |
+
+### 3.7 Verbatims typiques
+
+| Situation | Ce qu'il dit |
+|-----------|--------------|
+| **Après une démo** | *"Montrez-moi comment ça rentre dans Orthalis. Si ça marche vraiment, je signe."* |
+| **Face à une solution** | *"Tous disent la même chose. Qu'est-ce qui vous rend différent ?"* |
+| **Objection** | *"J'ai essayé des trucs comme ça. Ça promettait tout et ça faisait rien."* |
+| **Intérêt** | *"Vous utilisez quoi comme modèle ? WhisperX ?"* |
+
+### 3.8 Messages clés pour ce persona
+
+| Message | Formulation |
+|---------|-------------|
+| **Promesse** | *"SAYDO va là où tous les concurrents s'arrêtent : de la voix au champ Orthalis, sans intervention humaine."* |
+| **Problème** | *"Tous les scribes transcrivent. Aucun ne remplit votre logiciel."* |
+| **Solution** | *"TES lit votre écran comme un humain et remplit les champs."* |
+| **CTA** | *"Accès bêta prioritaire + documentation technique."* |
+
+### 3.9 Angles de contenu prioritaires
+
+| Type d'article | Sujet |
+|----------------|-------|
+| Technique | *"Architecture de SAYDO : WhisperX + TES + FastAPI"* |
+| Benchmark | *"SAYDO vs Nuance vs Nabla : le comparatif technique"* |
+| Démonstration | *"Comment SAYDO remplit Orthalis automatiquement"* (vidéo/GIF) |
+| Métriques | *"WER < 10%, similarité 96-99% : comment SAYDO mesure sa précision"* |
+
+---
+
+## SECTION 4 — FICHE DÉTAILLÉE — ARGENTCENTRIQUE
+
+### 4.1 Identité
+
+| Élément | Détail |
+|---------|--------|
+| **Nom** | Dr. Ahmed Mansouri |
+| **Âge** | 40 ans |
+| **Genre** | Homme |
+| **Situation** | Cabinet en centre-ville, 3 praticiens, 4 secrétaires |
+| **Patientèle** | 30 patients par jour par praticien |
+| **Expérience** | 12 ans d'exercice en orthodontie |
+
+### 4.2 Contexte et mode de vie
+
+Ahmed pilote son cabinet comme une entreprise. Il a une vision claire de la croissance et cherche constamment à optimiser ses processus. Il est très attentif aux coûts et au ROI.
+
+### 4.3 Ce qui le motive
+
+| Motivation | Détail |
+|------------|--------|
+| **Croissance** | Il veut développer son cabinet |
+| **ROI** | Il investit dans ce qui rapporte |
+| **Efficacité** | Il cherche à maximiser le temps clinique |
+| **Compétitivité** | Il veut être en avance sur ses concurrents |
+
+### 4.4 Ce qui le frustre
+
+| Frustration | Détail |
+|-------------|--------|
+| **Coût d'opportunité** | *"2h30 par jour à faire du travail non clinique. C'est X€ de CA perdu."* |
+| **Inefficacité** | *"3 secrétaires qui ressaisissent ce qui a déjà été dit."* |
+| **Double saisie** | *"C'est un poste de coût invisible."* |
+| **Solutions incomplètes** | *"Je veux un outil qui règle tout, pas un de plus."* |
+
+### 4.5 Comportement d'achat
+
+| Aspect | Détail |
+|--------|--------|
+| **Déclencheur** | Un ROI calculable et rapide |
+| **Freins** | *"Est-ce que le coût est justifié par le bénéfice ?"* |
+| **Décision** | Rapide si le calcul est clair |
+| **Sources d'info** | Chiffres, études de cas, retour d'investissement |
+
+### 4.6 Objections typiques
+
+| Objection | Réponse SAYDO |
+|-----------|---------------|
+| *"C'est combien ?"* | 200€/mois. Moins que 2h de secrétariat par semaine. |
+| *"Quel est le ROI ?"* | 2-3h récupérées par jour × votre taux horaire = ROI 10x-15x. |
+| *"Mon cabinet est trop petit"* | Même seul, vous récupérez 2h par jour. Le calcul est le même. |
+
+### 4.7 Verbatims typiques
+
+| Situation | Ce qu'il dit |
+|-----------|--------------|
+| **En réunion d'équipe** | *"On perd trop de temps à ressaisir. Combien ça nous coûte ?"* |
+| **Face à une solution** | *"Donnez-moi un chiffre. Si ça coûte X et que ça rapporte Y, on signe."* |
+| **Objection** | *"200€/mois ? C'est combien en coût par patient ?"* |
+| **Intérêt** | *"Combien de temps mes praticiens vont récupérer ?"* |
+
+### 4.8 Messages clés pour ce persona
+
+| Message | Formulation |
+|---------|-------------|
+| **Promesse** | *"SAYDO coûte 200€/mois et récupère l'équivalent de 2 à 3h de travail qualifié par jour."* |
+| **Problème** | *"2h30 par jour de travail non clinique = X€ de CA perdu."* |
+| **Solution** | *"TES supprime la double saisie = équivalent d'un demi-poste de secrétariat."* |
+| **CTA** | *"Calculateur ROI personnalisé."* |
+
+### 4.9 Angles de contenu prioritaires
+
+| Type d'article | Sujet |
+|----------------|-------|
+| ROI | *"Combien vous coûte réellement votre charge administrative ?"* |
+| Étude de cas | *"Comment un orthodontiste a récupéré 2h par jour avec SAYDO"* |
+| Modèle économique | *"Infrastructure mutualisée : comment SAYDO maîtrise ses coûts"* |
+| Croissance | *"Comment SAYDO vous aide à augmenter votre CA sans voir plus de patients"* |
+
+---
+
+## SECTION 5 — MATRICE COMPARATIVE DES PERSONAS
+
+| Critère | Patientcentrique | Technocentrique | Argentcentrique |
+|---------|------------------|-----------------|-----------------|
+| **Âge** | 45 ans | 50 ans | 40 ans |
+| **Motivation** | Présence, soin, vocation | Compréhension, innovation | ROI, croissance, efficacité |
+| **Ennemi** | Burnout silencieux | Logiciels fermés | Coût d'opportunité |
+| **Déclencheur** | Témoignage d'un confrère | Preuve technique | Calcul ROI |
+| **CTA** | "Vivez une consultation sans notes" | "Accès bêta + doc technique" | "Calculateur ROI" |
+| **Ton** | Émotionnel, vocation | Technique, précis | Chiffré, business |
+| **Preuve prioritaire** | Preuve 3 (conçu par orthodontiste) | Preuve 2 (TES) | Preuve 2 (TES + ROI) |
+
+---
+
+## SECTION 6 — VERBATIMS RÉELS
+
+> **À remplir AVEC le co-fondateur pendant la session**
+
+### Exemples de verbatims — Patientcentrique
+
+| # | Verbatim | Contexte |
+|---|----------|----------|
+| 1 | *"Je voudrais être plus présente pour mes patients, mais j'ai toujours ces notes à prendre..."* | En consultation |
+| 2 | *"Encore 2h de comptes-rendus ce soir. Et mes enfants m'attendent."* | En fin de journée |
+| 3 | *"Je ne veux pas un truc qui me complique la vie. Je veux juste soigner."* | Face à une solution |
+
+### Exemples de verbatims — Technocentrique
+
+| # | Verbatim | Contexte |
+|---|----------|----------|
+| 1 | *"J'ai testé 4 solutions en 2 ans. Toutes s'arrêtent avant de remplir le logiciel."* | Après une démo |
+| 2 | *"Tous disent la même chose. Qu'est-ce qui vous rend différent ?"* | Face à une solution |
+| 3 | *"J'ai essayé des trucs comme ça. Ça promettait tout et ça faisait rien."* | Objection |
+
+### Exemples de verbatims — Argentcentrique
+
+| # | Verbatim | Contexte |
+|---|----------|----------|
+| 1 | *"On perd trop de temps à ressaisir. Combien ça nous coûte ?"* | En réunion d'équipe |
+| 2 | *"Donnez-moi un chiffre. Si ça coûte X et que ça rapporte Y, on signe."* | Face à une solution |
+| 3 | *"200€/mois ? C'est combien en coût par patient ?"* | Objection |
+
+
+---
+
+## SECTION 7 — MOMENTS DE BASCULE
+
+> **RÈGLE :** Les moments de bascule sont les déclencheurs qui transforment un orthodontiste curieux en prospect chaud. Ils sont différents pour chaque persona.
+
+### 7.1 Patientcentrique — Moments de bascule
+
+| Moment | Description | Formulation pour l'agent IA |
+|--------|-------------|----------------------------|
+| **1. Reconnaissance du problème** | *"Je ne suis pas pleinement présent pour mes patients."* | *"Vous vous surprenez à penser à vos notes pendant que votre patient vous parle."* |
+| **2. Identification de la solution** | *"Quelqu'un a vécu la même chose et a trouvé une solution."* | *"Un confrère qui avait le même problème a retrouvé 2h par jour."* |
+| **3. Preuve sociale** | *"Un confrère que je respecte utilise SAYDO."* | *"Dr. X, que vous connaissez peut-être, utilise SAYDO depuis 3 mois."* |
+
+### 7.2 Technocentrique — Moments de bascule
+
+| Moment | Description | Formulation pour l'agent IA |
+|--------|-------------|----------------------------|
+| **1. Découverte de TES** | *"Un agent visuel qui remplit les logiciels fermés ? C'est nouveau."* | *"SAYDO va là où les autres s'arrêtent : il remplit votre logiciel."* |
+| **2. Vérification des métriques** | *"WER < 10%, similarité 96-99%. Je veux voir."* | *"WER < 10% sur les consultations orthodontiques. Similarité sémantique 96-99%."* |
+| **3. Preuve technique** | *"Ça marche vraiment sur Orthalis. Je l'ai vu."* | *"Vous avez vu la démo. Orthalis se remplit tout seul, sans API."* |
+
+### 7.3 Argentcentrique — Moments de bascule
+
+| Moment | Description | Formulation pour l'agent IA |
+|--------|-------------|----------------------------|
+| **1. Calcul du coût d'opportunité** | *"2h30 par jour × 250 jours × 200€/h = 125 000€/an."* | *"2h30 par jour, c'est 125 000€ de CA potentiel perdu chaque année."* |
+| **2. Comparaison du coût** | *"200€/mois. C'est moins cher que 2h de secrétariat."* | *"200€/mois, c'est moins que 2h de secrétariat par semaine."* |
+| **3. ROI validé** | *"Le ROI est de 10x. C'est une évidence."* | *"Pour 1€ investi, SAYDO vous rapporte 10€ de temps récupéré."* |
+---
+
+## SECTION 8 — PERSONAS ÉMERGENTS (À SURVEILLER)
+
+> **RÈGLE :** Les personas émergents sont identifiés lors des sessions trimestrielles. Ils ne sont pas encore validés.
+
+| Persona émergent | Description | À valider avec |
+|------------------|-------------|----------------|
+| **Secrétaire médicale** | Utilise SAYDO au quotidien pour remplir les logiciels. Intéressée par la réduction de son travail de saisie. | Retours bêta |
+| **Directeur de centre dentaire** | Gère plusieurs praticiens. Intéressé par le ROI global du centre. | Retours bêta |
+| **Jeune praticien** | Moins d'expérience, plus ouvert à la technologie. Intéressé par la modernité. | Réseau du co-fondateur |
+
+**Comment intégrer un nouveau persona :**
+1. Identifier des verbatims récurrents
+2. Valider avec le co-fondateur
+3. Ajouter une fiche complète
+4. Produire un article test pour ce persona
+5. Analyser la performance

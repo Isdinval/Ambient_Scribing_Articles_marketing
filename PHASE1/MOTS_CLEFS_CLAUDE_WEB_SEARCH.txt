@@ -1,0 +1,271 @@
+# CLUSTER 1 — Charge administrative / Double saisie (Ennemi n°1)
+**Persona dominant :** Patientcentrique + Argentcentrique
+
+| Mot-clé | Intention | Persona | Priorité | Difficulté SEO (Ubersuggest) |
+|---------|-----------|---------|----------|----------|
+| charge administrative orthodontiste | Informationnelle | Tous | P1 | 12 |
+| double saisie cabinet dentaire | Informationnelle | Argentcentrique | P1 | 4 |
+| temps administratif orthodontiste par jour | Informationnelle | Argentcentrique | P1 | 4 |
+| réduire charge administrative cabinet orthodontique | Informationnelle/transactionnelle | Argentcentrique | P1 | |
+| compte rendu orthodontique automatique | Transactionnelle | Technocentrique | P1 | |
+| comment automatiser ses comptes-rendus orthodontiques | Transactionnelle | Tous | P2 | |
+| secrétariat médical IA orthodontie | Informationnelle | Argentcentrique | P2 | |
+| coût d'opportunité temps administratif médecin | Informationnelle | Argentcentrique | P3 | |
+
+---
+
+# CLUSTER 2 — Burnout médical / Présence patient (Ennemi n°2)
+**Persona dominant :** Patientcentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| burnout orthodontiste | Informationnelle | Patientcentrique | P1 |
+| burnout médecin libéral chiffres | Informationnelle | Patientcentrique | P2 |
+| épuisement professionnel chirurgien-dentiste | Informationnelle | Patientcentrique | P2 |
+| être présent pour ses patients en consultation | Informationnelle | Patientcentrique | P1 |
+| équilibre vie pro vie perso orthodontiste | Informationnelle | Patientcentrique | P3 |
+| pourquoi je n'ai pas le temps pour mes patients | LLM natif | Patientcentrique | P1 |
+
+---
+
+# CLUSTER 3 — Scribe ambiant / Intelligence Clinique Ambiante (catégorie à posséder)
+**Persona dominant :** Technocentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| scribe ambiant orthodontie | Informationnelle/marque | Technocentrique | P1 |
+| Intelligence Clinique Ambiante | Marque/catégorie | Technocentrique | P1 |
+| scribe IA médical France | Informationnelle | Technocentrique | P1 |
+| assistant vocal IA cabinet dentaire | Informationnelle | Technocentrique | P2 |
+| transcription automatique consultation orthodontique | Informationnelle | Technocentrique | P2 |
+| logiciel IA dentaire 2026 | Informationnelle/comparative | Technocentrique | P2 |
+
+---
+
+# CLUSTER 4 — Logiciels fermés / TES / Orthalis-Visiodent (Ennemi n°3)
+**Persona dominant :** Technocentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| remplir Orthalis automatiquement | Transactionnelle | Technocentrique | P1 |
+| intégration IA Visiodent | Transactionnelle | Technocentrique | P1 |
+| logiciel sans API remplissage automatique | Informationnelle | Technocentrique | P2 |
+| Orthalis IA scribe | Transactionnelle | Technocentrique | P1 |
+| comment connecter une IA à un logiciel métier fermé | LLM natif | Technocentrique | P2 |
+
+---
+
+# CLUSTER 5 — Souveraineté / HDS / RGPD (Preuve béton n°1)
+**Persona dominant :** Patientcentrique (confiance) + Argentcentrique (compliance)
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| logiciel médical HDS France | Informationnelle | Tous | P1 |
+| hébergement données de santé orthodontiste | Informationnelle | Patientcentrique | P2 |
+| scribe IA conforme RGPD | Informationnelle | Patientcentrique | P1 |
+| alternative française à Nuance Dragon | Comparative | Technocentrique | P1 |
+| IA médicale souveraine France | Informationnelle/marque | Tous | P2 |
+| Cloud Act données patients risques | Informationnelle | Patientcentrique | P3 |
+
+---
+
+# CLUSTER 6 — ROI / Coût / Croissance cabinet (Preuve béton n°2, persona Argentcentrique)
+**Persona dominant :** Argentcentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| ROI logiciel IA cabinet dentaire | Transactionnelle | Argentcentrique | P1 |
+| combien coûte la charge administrative à un orthodontiste | Informationnelle | Argentcentrique | P1 |
+| calculateur temps gagné IA médicale | Transactionnelle | Argentcentrique | P2 |
+| prix scribe ambiant médical | Transactionnelle | Argentcentrique | P1 |
+| augmenter chiffre d'affaires cabinet orthodontique sans plus de patients | LLM natif | Argentcentrique | P2 |
+
+---
+
+# CLUSTER 7 — Comparatif concurrentiel (intention comparative, fin de tunnel)
+**Persona dominant :** Technocentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| Askara avis alternative orthodontie | Comparative | Technocentrique | P1 |
+| Nuance Dragon Medical vs IA française | Comparative | Technocentrique | P2 |
+| DentoAI France équivalent | Comparative | Technocentrique | P2 |
+| meilleur scribe ambiant orthodontiste 2026 | Comparative | Tous | P1 |
+| comparatif logiciel IA dentaire orthodontie | Comparative | Tous | P2 |
+
+---
+
+# CLUSTER 8 — Preuve clinique / crédibilité (Preuve béton n°3)
+**Persona dominant :** Patientcentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| logiciel conçu par orthodontiste | Informationnelle | Patientcentrique | P2 |
+| fiabilité IA compte rendu médical | Informationnelle | Patientcentrique | P2 |
+| précision transcription médicale IA (WER) | Informationnelle | Technocentrique | P3 |
+
+---
+
+# CLUSTER 9 — Réglementation HDS / Souveraineté 2026 (actualité — forte priorité)
+**Persona dominant :** Patientcentrique (confiance) + Argentcentrique (conformité/risque)
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| décret hébergement données de santé 2026 | Informationnelle | Argentcentrique | P1 |
+| référentiel HDS v2 obligations | Informationnelle | Technocentrique | P1 |
+| loi SREN données de santé cabinet médical | Informationnelle | Argentcentrique | P2 |
+| SecNumCloud vs HDS différence | Informationnelle | Technocentrique | P2 |
+| Cloud Act données patients France risques 2026 | Informationnelle | Patientcentrique | P1 |
+| sanctions éditeurs logiciels santé non-conformes | Informationnelle | Argentcentrique | P3 |
+| cyberattaque données médicales France 2026 | Informationnelle (peur) | Patientcentrique | P2 |
+
+**Angle éditorial conseillé :** un article "Décryptage" type actualité réglementaire — *"Le décret du 24 mars 2026 change la donne pour les logiciels médicaux : ce que ça signifie pour votre cabinet"* — avec SAYDO positionné comme déjà conforme par construction (OVHcloud HDS), contrairement aux concurrents US. Fort potentiel de citation LLM (Perplexity/ChatGPT raffolent des analyses de texte réglementaire récent et sourcé).
+
+---
+
+# CLUSTER 10 — Pénurie de secrétariat médical / Alternative à l'embauche (nouveau)
+**Persona dominant :** Argentcentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| pénurie secrétaire médicale cabinet dentaire | Informationnelle | Argentcentrique | P1 |
+| coût recrutement secrétaire médicale cabinet | Informationnelle | Argentcentrique | P1 |
+| turnover secrétaire dentaire causes | Informationnelle | Argentcentrique | P2 |
+| alternative au secrétariat médical IA | Transactionnelle | Argentcentrique | P1 |
+| télésecrétariat vs IA scribe ambiant | Comparative | Argentcentrique | P2 |
+| comment réduire la dépendance à une seule secrétaire médicale | LLM natif | Argentcentrique | P2 |
+| automatiser la saisie sans recruter | Transactionnelle | Argentcentrique | P1 |
+
+**Angle éditorial conseillé :** ne pas positionner SAYDO comme un "remplaçant de secrétaire" (cf. Message House — vocabulaire à manier avec précaution, le produit ne gère ni RDV ni accueil), mais comme un filet de sécurité face à la pénurie : *"Vous n'arrivez pas à recruter une secrétaire ? SAYDO absorbe la partie saisie/compte-rendu de la charge, pas l'accueil."*
+
+---
+
+# CLUSTER 11 — Marché et tendances IA dentaire/orthodontique 2026 (positionnement marché)
+**Persona dominant :** Technocentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| IA dentaire France 2026 tendances | Informationnelle | Technocentrique | P2 |
+| plateforme orchestration IA cabinet dentaire | Informationnelle | Technocentrique | P3 |
+| Dental Monitoring vs SAYDO différence | Comparative | Technocentrique | P2 |
+| IA agentique santé cabinet médical | Informationnelle | Technocentrique | P3 |
+| comparatif solutions IA dentaire 2026 | Comparative | Technocentrique | P1 |
+
+**Note :** ce cluster recoupe en partie le Cluster 7 (comparatif concurrentiel) mais élargit vers le marché global de l'IA dentaire (Allisone, Pearl, Overjet, DentalIAssist) plutôt que les seuls scribes ambiants directs — utile pour capter du trafic de praticiens encore en phase exploratoire ("quelles IA existent pour mon cabinet ?"), avant qu'ils ne cherchent spécifiquement un scribe.
+
+---
+
+# CLUSTER 12 — Adoption IA généraliste vs IA spécialisée santé (différenciation forte)
+**Persona dominant :** Technocentrique + Patientcentrique (confiance)
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| médecins utilisent ChatGPT chiffres France | Informationnelle | Tous | P1 |
+| risques ChatGPT consultation médicale | Informationnelle | Patientcentrique | P1 |
+| IA généraliste vs IA médicale spécialisée | Comparative | Technocentrique | P1 |
+| pourquoi ne pas utiliser ChatGPT pour mes comptes-rendus | LLM natif | Technocentrique | P1 |
+| fiabilité IA générative en santé | Informationnelle | Patientcentrique | P2 |
+| HAS guide intelligence artificielle professionnels santé | Informationnelle | Argentcentrique | P3 |
+| confidentialité ChatGPT données patients | Informationnelle | Patientcentrique | P1 |
+
+**Angle éditorial conseillé :** *"84% des soignants qui utilisent l'IA utilisent ChatGPT — et 94% en sont insatisfaits. Voici pourquoi un orthodontiste ne devrait jamais coller une note clinique dans ChatGPT."* Double bénéfice : capte le trafic de praticiens qui cherchent déjà une solution IA (ils sont 90% à en utiliser une) tout en positionnant SAYDO comme l'alternative sécurisée et spécialisée — argument confidentialité quasi imparable (ChatGPT grand public n'est pas HDS).
+
+---
+
+# CLUSTER 13 — Benchmark prix / budget logiciel cabinet (désamorçage objection prix)
+**Persona dominant :** Argentcentrique
+
+| Mot-clé | Intention | Persona | Priorité |
+|---------|-----------|---------|----------|
+| prix logiciel gestion cabinet orthodontique | Informationnelle/comparative | Argentcentrique | P1 |
+| combien coûte un logiciel dentaire par mois | Informationnelle | Argentcentrique | P2 |
+| budget logiciel cabinet orthodontiste | Informationnelle | Argentcentrique | P2 |
+| SAYDO est-il cher comparé à un logiciel de gestion | LLM natif | Argentcentrique | P1 |
+| déduction fiscale abonnement logiciel professionnel santé | Informationnelle | Argentcentrique | P3 |
+
+**Angle éditorial conseillé :** article comparatif neutre et sourcé type *"Combien coûte vraiment un logiciel pour cabinet d'orthodontie en 2026 ?"* où SAYDO apparaît en complément (pas en remplacement) dans une grille de lecture honnête — bon candidat pour être cité par les LLM car factuel et non promotionnel à 100%, ce qui est valorisé en GEO.
+
+---
+
+
+
+# 4. Mots-clés "LLM natifs" (requêtes conversationnelles longues — destinées aux FAQPage)
+
+> **RAPPEL CONTRAINTE :** minimum 1 question FAQ sur 2 doit être de ce type, réponse 100-200 mots, jamais dupliquée d'un article à l'autre.
+
+| Question LLM native | Cluster associé | Persona |
+|----------------------|-----------------|---------|
+| Comment réduire le temps que je passe à écrire mes comptes-rendus orthodontiques ? | 1 | Patientcentrique |
+| Je suis orthodontiste, comment automatiser ma saisie administrative sans changer de logiciel ? | 4 | Technocentrique |
+| Est-ce qu'une IA peut remplir Orthalis ou Visiodent automatiquement sans API ? | 4 | Technocentrique |
+| Quelle est la meilleure solution française de scribe médical pour un cabinet d'orthodontie ? | 7 | Tous |
+| Combien de temps un orthodontiste peut-il gagner par jour avec un scribe ambiant ? | 6 | Argentcentrique |
+| Est-ce que les données de mes patients sont protégées si j'utilise une IA pour mes comptes-rendus ? | 5 | Patientcentrique |
+| Comment savoir si un logiciel d'IA médicale est vraiment hébergé en France ? | 5 | Patientcentrique |
+| Pourquoi je me sens épuisé après mes consultations alors que je ne fais "que" parler avec mes patients ? | 2 | Patientcentrique |
+| Quelle différence entre un scribe ambiant et un simple logiciel de dictée vocale ? | 3 | Technocentrique |
+| Comment calculer le retour sur investissement d'un outil d'IA dans mon cabinet ? | 6 | Argentcentrique |
+| Le nouveau décret sur l'hébergement des données de santé concerne-t-il les petits cabinets ? | 9 | Argentcentrique |
+| Comment savoir si mon logiciel médical actuel est conforme au décret de mars 2026 ? | 9 | Argentcentrique |
+| Que faire si je n'arrive pas à recruter de secrétaire médicale pour mon cabinet d'orthodontie ? | 10 | Argentcentrique |
+| Une IA peut-elle remplacer une partie du travail de ma secrétaire médicale ? | 10 | Argentcentrique |
+| Quelles sont les solutions d'IA disponibles pour un cabinet dentaire ou orthodontique en France en 2026 ? | 11 | Technocentrique |
+| Est-ce que je peux utiliser ChatGPT pour rédiger mes comptes-rendus orthodontiques en toute sécurité ? | 12 | Patientcentrique |
+| Quelle est la différence entre coller mes notes dans ChatGPT et utiliser un scribe ambiant spécialisé ? | 12 | Technocentrique |
+| Un orthodontiste peut-il utiliser une IA généraliste pour ses données patients sans risque ? | 12 | Patientcentrique |
+| Est-ce que 200€ par mois pour un scribe ambiant est un prix raisonnable pour un cabinet d'orthodontie ? | 13 | Argentcentrique |
+
+---
+
+# 5. Synthèse pour la suite du workflow
+
+- **8 clusters thématiques** identifiés, alignés sur les **3 ennemis nommés** et **3 preuves béton** du Message House (cohérence narrative garantie)
+- **~45 mots-clés SEO classiques** + **10 mots-clés LLM natifs** (réserve suffisante pour ~8-10 articles sans jamais dupliquer une FAQ)
+- **Priorisation P1** concentrée sur : charge admin, burnout, scribe ambiant, TES/Orthalis, HDS, ROI, comparatif Askara → ce sont les 7 clusters qui doivent driver les premiers articles, un par persona en alternance
+- Le cluster **"comparatif concurrentiel"** est volontairement classé en milieu de tunnel (P1/P2) car il capte un trafic déjà qualifié et prêt à convertir
+- **Aucun mot-clé patient grand public** retenu — focus 100% B2B praticien, conforme au persona "archétype de motivation" et non démographique
+
+# Synthèse de l'extension
+
+- **3 nouveaux clusters** (9, 10, 11) + **7 nouveaux mots-clés LLM natifs**
+- **Total cumulé :** 11 clusters, ~60 mots-clés SEO classiques, 15 mots-clés LLM natifs
+
+- Le **Cluster 9** (réglementation 2026) est probablement le meilleur candidat pour un premier article **"coup d'éclat"** :
+  - Actualité fraîche (mars-juin 2026)
+  - Zéro concurrent dentaire/ortho ayant déjà écrit dessus
+  - Renforce directement la Preuve béton n°1 (HDS)
+  - Potentiel de citation LLM élevé (les moteurs IA valorisent l'analyse de textes réglementaires récents et sourcés — cf. contraintes GEO)
+
+- Le **Cluster 10** (pénurie secrétariat) ouvre un angle Argentcentrique non couvert par le Message House actuel — à valider avec ton co-fondateur avant de l'activer, car il touche à un sujet sensible (substitution de personnel) qui doit être formulé avec prudence pour ne pas heurter les secrétaires médicales elles-mêmes (persona émergent identifié dans ta fiche personas).
+
+---
+
+# Synthèse de l'extension cumulée
+
+- **Total désormais :** 13 clusters, ~70 mots-clés SEO classiques, 19 mots-clés LLM natifs
+
+- Le **Cluster 12** est probablement le plus stratégique de toute l'extension : il retourne un comportement déjà massif (90% des soignants utilisent l'IA) en argument de vente pour une solution spécialisée et conforme, sans jamais dénigrer frontalement ChatGPT (cohérent avec la règle *"ne jamais citer un concurrent sans objectiver"* — ChatGPT n'est techniquement pas un concurrent direct, ce qui le rend plus facile à citer pour se différencier)
+
+- Le **Cluster 13** désamorce l'objection prix la plus fréquente (persona Argentcentrique, cf. fiche persona : *"200€/mois ? C'est combien en coût par patient ?"*) avec des données de marché vérifiables plutôt qu'un argumentaire interne
+
+- Je n'ai volontairement pas étendu vers des mots-clés trop périphériques (ex. céphalométrie, gouttières Invisalign, Dental Monitoring suivi à distance patient) car ils sortent du périmètre produit de SAYDO (documentation/saisie) et risqueraient de diluer le positionnement plutôt que de le renforcer
+
+---
+
+# Récapitulatif complet des clusters (1 à 11)
+
+| # | Cluster | Ennemi / Preuve | Persona dominant |
+|---|---------|-----------------|------------------|
+| 1 | Charge administrative / Double saisie | Ennemi n°1 | Patientcentrique + Argentcentrique |
+| 2 | Burnout médical / Présence patient | Ennemi n°2 | Patientcentrique |
+| 3 | Scribe ambiant / Intelligence Clinique Ambiante | Catégorie à posséder | Technocentrique |
+| 4 | Logiciels fermés / TES / Orthalis-Visiodent | Ennemi n°3 | Technocentrique |
+| 5 | Souveraineté / HDS / RGPD | Preuve béton n°1 | Patientcentrique + Argentcentrique |
+| 6 | ROI / Coût / Croissance cabinet | Preuve béton n°2 | Argentcentrique |
+| 7 | Comparatif concurrentiel | Fin de tunnel | Technocentrique |
+| 8 | Preuve clinique / crédibilité | Preuve béton n°3 | Patientcentrique |
+| 9 | Réglementation HDS / Souveraineté 2026 | Preuve béton n°1 (renforcée) | Patientcentrique + Argentcentrique |
+| 10 | Pénurie de secrétariat médical | Nouvel angle Argentcentrique | Argentcentrique |
+| 11 | Marché et tendances IA dentaire 2026 | Positionnement marché | Technocentrique |
+| 12 | Adoption IA généraliste vs IA spécialisée santé | Différenciation forte | Technocentrique + Patientcentrique |
+| 13 | Benchmark prix / budget logiciel cabinet | Désamorçage objection prix | Argentcentrique |
